@@ -15,13 +15,12 @@ public class PlayerMove : MonoBehaviour
 
     private Rigidbody2D rig = null;
 
-    private void OnCollisionEnter(Collision col)
+    private void OnCollisionEnter2D(Collision2D col)
     {
         if(col.gameObject.tag == "Ground")//그라운드 
         {
             isGrounded = true;
             jumpCount = 0;
-            Debug.Log("접촉");
         }
     }
     
