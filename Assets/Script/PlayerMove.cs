@@ -4,27 +4,53 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
-    public float jump;
+    public float jumpPower;
     public float moveSpeed;
+
+    public bool isGrounded = false;
+
+    private float jumpCount = 0;
+
+    public Vector3 moveVelocity = Vector3.right;
+
+    private Rigidbody2D rig = null;
+
+    private void OnCollisionEnter(Collision col)
+    {
+        if(col.gameObject.tag == "Ground")//그라운드 
+        {
+            isGrounded = true;
+            jumpCount = 0;
+            Debug.Log("접촉");
+        }
+    }
+    
+    private void Awake()
+    {
+        rig = GetComponent<Rigidbody2D>();
+        jumpCount = 0;
+    }
 
     private void Update()
     {
 
         Move();
-
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (isGrounded)
+        {
+            if (jumpCount < 2)
             {
+                if (Input.GetKeyDown(KeyCode.Space))
+                {
+                    rig.velocity = new Vector3(rig.velocity.x, jumpPower);
 
-            GetComponent<Rigidbody2D>().velocity = new Vector3(/*속력벡터*/ GetComponent<Rigidbody2D>().velocity.x, jump);
-
+                    jumpCount++;
+                }
             }
-        
+        }
     }
 
     private void Move()
     {
-        Vector3 moveVelocity = Vector3.right;
-
         transform.position += moveVelocity * moveSpeed * Time.deltaTime;
     }
 
