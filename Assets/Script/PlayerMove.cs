@@ -40,7 +40,8 @@ public class PlayerMove : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.Space))
                 {
-                    rig.velocity = new Vector3(rig.velocity.x, jumpPower);
+                    //rig.velocity = new Vector3(rig.velocity.x, jumpPower);
+                    rig.AddForce(Vector3.up * jumpPower, ForceMode2D.Impulse);
 
                     jumpCount++;
                 }
