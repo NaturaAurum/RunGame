@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class PlayerMove : MonoBehaviour
 {
@@ -41,11 +43,14 @@ public class PlayerMove : MonoBehaviour
         // TODO : rigidbody2d 문제인지 Collision이 발생하면 velocity가 zero가 됨. 해당 현상을 고쳐야 Custom한 시스템을 만들 수 있음.
         var velocity = rig.velocity;
         // Update
+        
+        isGrounded = GroundCheck();
+        
         MoveUpdate(ref velocity);
         JumpUpdate(ref velocity);
-        isGrounded = GroundCheck();
-        if (!isGrounded)
-            GravityUpdate(ref velocity);
+        
+        // TODO : Velocity calculation
+        GravityUpdate(ref velocity);
         rig.velocity = velocity;
     }
 
@@ -78,6 +83,7 @@ public class PlayerMove : MonoBehaviour
 
     private void GravityUpdate(ref Vector2 velocity)
     {
+        if (isGrounded) return;
         var y = velocity.y;
         y += GravityPower * Time.fixedDeltaTime;
         velocity.y = y;
