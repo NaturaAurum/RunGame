@@ -22,7 +22,7 @@ namespace Stella.GameLogic.Character
         private bool isGround = true;
 
         private void Awake()
-        {
+        { 
             characterBase = GetComponent<CharacterBase>();
             characterBase.OnEnterState += OnEnterState;
             characterBase.OnExitState += OnExitState;
