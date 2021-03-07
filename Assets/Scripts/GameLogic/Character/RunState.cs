@@ -5,6 +5,8 @@ namespace Stella.GameLogic.Character
 {
     public class RunState : CharacterState
     {
+        public override CharacterStateType Type => CharacterStateType.Run;
+        
         // animation 있으면 animator 가져오기
         
         public RunState(CharacterBase characterBase) : base(characterBase)
@@ -14,8 +16,6 @@ namespace Stella.GameLogic.Character
 
         public override void Listen(ICommand command)
         {
-            // TODO : JumpCommand 들어오면 JumpState로 변환?
-
             if (IsJumpCommand(command))
             {
                 nextState = new Jump01State(characterBase);

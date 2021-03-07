@@ -4,6 +4,8 @@ namespace Stella.GameLogic.Character
 {
     public class IdleState : CharacterState
     {
+        public override CharacterStateType Type => CharacterStateType.Idle;
+        
         public IdleState(CharacterBase characterBase) : base(characterBase)
         {
             

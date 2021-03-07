@@ -7,6 +7,9 @@ namespace Stella.GameLogic.Character
     
     public class HitState : CharacterState
     {
+        public override CharacterStateType Type => CharacterStateType.Hit;
+
+        
         private readonly int hitStopFrame = 0;
         private readonly Vector2 knockBack = Vector2.zero;
         private int frame = 0;
@@ -25,6 +28,7 @@ namespace Stella.GameLogic.Character
             this.knockBack = knockBack;
         }
 
+        
         public override void Listen(ICommand command)
         {
             return; // do nothing

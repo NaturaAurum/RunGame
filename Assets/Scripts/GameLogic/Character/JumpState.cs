@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Stella.GameLogic.Character
 {
-    public class JumpState : CharacterState
+    public abstract class JumpState : CharacterState
     {
         public JumpState(CharacterBase characterBase) : base(characterBase)
         {
@@ -15,6 +15,7 @@ namespace Stella.GameLogic.Character
             {
                 nextState = new RunState(characterBase);
             }
+            
             DoCommand(command);
         }
         
@@ -25,6 +26,12 @@ namespace Stella.GameLogic.Character
             var acc = characterBase.CharacterData.AccelerationOnAir;
             var maxSpeed = characterBase.CharacterData.MaxSpeedOnAir;
             DefaultUpdatePhysics(ref velocity, Vector3.right, maxSpeed, acc);
+
+            var velocityY = velocity.y;
+            if (velocityY < 0)
+            {
+                nextState = new AirState(characterBase);
+            }
         }
     }
 }

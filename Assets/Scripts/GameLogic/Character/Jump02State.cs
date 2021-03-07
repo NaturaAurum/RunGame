@@ -5,6 +5,7 @@ namespace Stella.GameLogic.Character
 {
     public class Jump02State : JumpState
     {
+        public override CharacterStateType Type => CharacterStateType.Jump02;
         public Jump02State(CharacterBase characterBase) : base(characterBase)
         {
         }

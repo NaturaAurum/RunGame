@@ -8,6 +8,7 @@ namespace Stella.GameLogic.Character
     {
         Idle,
         Air,
+        Hit,
         Run,
         Jump01,
         Jump02,
@@ -18,10 +19,15 @@ namespace Stella.GameLogic.Character
     /// </summary>
     public abstract class CharacterState : IState<CharacterState>
     {
+        public abstract CharacterStateType Type { get; }
+        
         protected CharacterBase characterBase { get; }
 
         protected CharacterState nextState = null;
-        
+
+        protected int hitstopFrame = 0;
+        protected bool hitstopNow => hitstopFrame > 0;
+
         protected CharacterState(CharacterBase characterBase)
         {
             this.characterBase = characterBase;
@@ -31,10 +37,16 @@ namespace Stella.GameLogic.Character
 
         public virtual CharacterState NextState() => nextState;
 
-        public virtual void Update() {}
+        public virtual void Update()
+        {
+            if (hitstopNow)
+            {
+                hitstopFrame--;
+            }
+        }
 
-        protected bool IsJumpCommand(ICommand command) => command is JumpCommand;
-
+        protected bool IsJumpCommand(ICommand command) => command is JumpCommand && characterBase.CanJump;
+        
         public virtual void UpdatePhysics(ref Vector2 velocity) {}
 
         protected void DefaultUpdatePhysics(ref Vector2 velocity, Vector2 direction, float targetX, float accX)

@@ -16,14 +16,16 @@ namespace Stella.GameLogic.Character.Data
 
         public float MaxFallingSpeedOnAir = 3f;
 
-        public float MaxJumpCount;
+        public int MaxJumpCount;
 
         public float Jump01Speed = 20f;
         public float Jump02Speed = 10f;
 
         public GameObject ModelPrefab;
-
-        public Vector3 LocalPosition { get; internal set; }
-        public Vector3 LocalRotation { get; internal set; }
+        public Vector3 LocalPosition;
+        public Vector3 LocalRotation;
+        public Vector3 LocalScale = Vector3.one;
+        
+        public int HpCount = 3;
     }
 }
