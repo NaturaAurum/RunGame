@@ -169,3 +169,4 @@ MonoBehaviour:
     Tile: {fileID: 11400000, guid: 070512953cec29f4fa913cab1d9a6813, type: 2}
   Map: 2
   Theme: 3
+  Type: 1
