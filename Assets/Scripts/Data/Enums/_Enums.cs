@@ -1,5 +1,6 @@
 ﻿using System;
 using Stella.Utils;
+using UniRx;
 
 namespace Stella.Data.Enums
 {
@@ -68,7 +69,27 @@ namespace Stella.Data.Enums
         GrassMid,
         GrassRight,
     }
-    
+
+    public enum ObstacleType // 필요할까?
+    {
+        
+    }
+
+    public enum GameState
+    {
+        Ready,
+        Play,
+        Over,
+    }
+
+    public class GameStateRxProp : ReactiveProperty<GameState>
+    {
+        public GameStateRxProp(GameState initialValue) : base(initialValue)
+        {
+            
+        }
+    }
+
     public class TileBlockIdUtil : EnumUtil<TileBlockId> {}
     public class CommonBlockIdUtil : EnumUtil<CommonBlockId> {}
 }
