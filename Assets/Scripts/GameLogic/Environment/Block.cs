@@ -5,7 +5,7 @@ using Sirenix.OdinInspector;
 using Stella.Data;
 using UnityEngine;
 
-namespace Stella.GameLogic.Environment.Floor
+namespace Stella.GameLogic.Environment
 {
     public class Block : MonoBehaviour
     {
