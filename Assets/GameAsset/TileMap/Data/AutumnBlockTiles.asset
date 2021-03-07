@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eef468ab861141b8a8c0a935062623fd, type: 3}
+  m_Name: AutumnBlockTiles
+  m_EditorClassIdentifier: 
+  values:
+  - key:
+      Type: 1
+      MapId:
+        Theme: 2
+        Type: 1
+      Id: 0
+    Tile: {fileID: 11400000, guid: b85e177f5e7ae0f4b908940103888d4e, type: 2}
+  - key:
+      Type: 1
+      MapId:
+        Theme: 2
+        Type: 1
+      Id: 1
+    Tile: {fileID: 11400000, guid: b9272cda1eed7fe40b4dc135afe08594, type: 2}
+  - key:
+      Type: 1
+      MapId:
+        Theme: 2
+        Type: 1
+      Id: 2
+    Tile: {fileID: 11400000, guid: 89fc4b8e74926a44293435fedba9299d, type: 2}
+  - key:
+      Type: 1
+      MapId:
+        Theme: 2
+        Type: 1
+      Id: 3
+    Tile: {fileID: 11400000, guid: 6680fadd2ce1cd040ba7c0db6da40daa, type: 2}
+  - key:
+      Type: 1
+      MapId:
+        Theme: 2
+        Type: 1
+      Id: 4
+    Tile: {fileID: 11400000, guid: 29d6db6baded554469019f5e547edfd4, type: 2}
+  - key:
+      Type: 1
+      MapId:
+        Theme: 2
+        Type: 1
+      Id: 5
+    Tile: {fileID: 11400000, guid: efa3c7eb63bfd1140aad293d08866249, type: 2}
+  - key:
+      Type: 1
+      MapId:
+        Theme: 2
+        Type: 1
+      Id: 6
+    Tile: {fileID: 11400000, guid: 0d22ab366e1f2a04fab1d060777735b2, type: 2}
+  - key:
+      Type: 1
+      MapId:
+        Theme: 2
+        Type: 1
+      Id: 7
+    Tile: {fileID: 11400000, guid: fcba0d591fe30ca4cac3408b29966411, type: 2}
+  - key:
+      Type: 1
+      MapId:
+        Theme: 2
+        Type: 1
+      Id: 8
+    Tile: {fileID: 11400000, guid: b0365900c462a5c4e9751ed64b9b404b, type: 2}
+  - key:
+      Type: 1
+      MapId:
+        Theme: 2
+        Type: 1
+      Id: 9
+    Tile: {fileID: 11400000, guid: 06eac1d234ded7041881210269526b79, type: 2}
+  - key:
+      Type: 1
+      MapId:
+        Theme: 2
+        Type: 1
+      Id: 10
+    Tile: {fileID: 11400000, guid: 8dcfe5a9a3024a54897d72c61dd18907, type: 2}
+  - key:
+      Type: 1
+      MapId:
+        Theme: 2
+        Type: 1
+      Id: 14
+    Tile: {fileID: 11400000, guid: edad7755c9288524f851c048580f8848, type: 2}
+  - key:
+      Type: 1
+      MapId:
+        Theme: 2
+        Type: 1
+      Id: 11
+    Tile: {fileID: 11400000, guid: d0fb3c701b72e3848a2e6c02027ca1a8, type: 2}
+  - key:
+      Type: 1
+      MapId:
+        Theme: 2
+        Type: 1
+      Id: 12
+    Tile: {fileID: 11400000, guid: 9c3e3a070b645954dbff58637954819d, type: 2}
+  - key:
+      Type: 1
+      MapId:
+        Theme: 2
+        Type: 1
+      Id: 13
+    Tile: {fileID: 11400000, guid: 8891e127994cfd440a09950d11c0a6d9, type: 2}
+  - key:
+      Type: 1
+      MapId:
+        Theme: 2
+        Type: 1
+      Id: 15
+    Tile: {fileID: 11400000, guid: 15a5bcf1c2b322d48909ebff682cc24b, type: 2}
+  - key:
+      Type: 1
+      MapId:
+        Theme: 2
+        Type: 1
+      Id: 16
+    Tile: {fileID: 11400000, guid: 646056580f87ba042b404621283df9d4, type: 2}
+  - key:
+      Type: 1
+      MapId:
+        Theme: 2
+        Type: 1
+      Id: 17
+    Tile: {fileID: 11400000, guid: 2b47daaa274ceb24abbf57d5255803ea, type: 2}
+  - key:
+      Type: 1
+      MapId:
+        Theme: 2
+        Type: 1
+      Id: 18
+    Tile: {fileID: 11400000, guid: 8e49c0989d16cd44ba75dd3f82ae28b7, type: 2}
+  - key:
+      Type: 1
+      MapId:
+        Theme: 2
+        Type: 1
+      Id: 19
+    Tile: {fileID: 11400000, guid: 2ff73319222a57f44babfc4a03a0b522, type: 2}
+  - key:
+      Type: 1
+      MapId:
+        Theme: 2
+        Type: 1
+      Id: 20
+    Tile: {fileID: 11400000, guid: d6cae3d388826bb4db2d4bc01baac77a, type: 2}
+  - key:
+      Type: 1
+      MapId:
+        Theme: 2
+        Type: 1
+      Id: 21
+    Tile: {fileID: 11400000, guid: f08ee5ba806c0e643b425c01253a5a01, type: 2}
+  - key:
+      Type: 1
+      MapId:
+        Theme: 2
+        Type: 1
+      Id: 22
+    Tile: {fileID: 11400000, guid: 01a9e30e5e7f1e44c983853a7cae2f10, type: 2}
+  Map: 1
+  Theme: 2

@@ -46,7 +46,6 @@ namespace Stella.Data
         }
 
         public static bool operator !=(ItemId i1, ItemId i2) => !(i1 == i2);
-        
     }
 
     [Serializable]

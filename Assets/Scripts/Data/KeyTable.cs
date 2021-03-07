@@ -5,6 +5,7 @@ using UnityEngine;
 
 namespace Stella.Data
 {
+
     public interface IKey<T>
     {
         T Key { get; }

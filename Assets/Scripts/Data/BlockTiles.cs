@@ -1,52 +1,62 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using System.Linq;
 using Sirenix.OdinInspector;
 using Stella.Data.Enums;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 #if UNITY_EDITOR
 using System.IO;
 using UnityEditor;
 #endif
 
+
 namespace Stella.Data
 {
-    [System.Serializable]
-    public struct BlockResourceData : IKey<ItemId>
+
+    [Serializable]
+    public struct BlockTileResource : IKey<ItemId>
     {
         public ItemId Key
         {
             get => key;
             set => key = value;
         }
+        [SerializeField] private ItemId key;
 
-        [SerializeField]
-        private ItemId key;
-
-        [Required] [PreviewField(Height = 80)] public Sprite Sprite;
+        [Required] [PreviewField(Height = 80)] public Tile Tile;
     }
-
+    
     [Required]
     [Serializable]
-    [CreateAssetMenu(menuName = "Block/Sprites")]
-    public class BlockSprites : KeyTable<ItemId, BlockResourceData>
+    [CreateAssetMenu(menuName = "Block/Tiles")]
+    public class BlockTiles : KeyTable<ItemId, BlockTileResource>
     {
         public MapType Map;
         public MapThemeType Theme;
-
-        public Sprite GetSprite(ItemId itemId)
+        
+        public Tile GetTile(ItemId itemId)
         {
             var data = GetValue(itemId);
             var key = data.Key;
             key.MapId = MapId.By(Theme, Map);
             data.Key = key;
 
-            return data.Sprite;
+            return data.Tile;
+        }
+
+        public ItemId? FindIdByValue(Tile tile)
+        {
+            foreach (var value in Values)
+            {
+                if (value.Tile == tile)
+                    return value.Key;
+            }
+
+            return null;
         }
         
-        #if UNITY_EDITOR
+#if UNITY_EDITOR
         [Button]
         private void Load()
         {
@@ -55,17 +65,12 @@ namespace Stella.Data
 
             Clear();
             
-            var base_path = "Assets/GameAsset/Sprites/Tiles/";
-
-            var map = "";
-            if (Map != MapType.None)
-            {
-                map = Map == MapType.Two ? "2D/" : "2.5D/";
-            }
-
+            var base_path = "Assets/GameAsset/TileMap/Palette/";
             var theme = Theme.ToString();
 
-            var guidPaths = AssetDatabase.FindAssets("t:Sprite", new[] {$"{base_path}{map}{theme}"});
+            var two_five = Map == MapType.Two_Five ? "25d" : "";
+
+            var guidPaths = AssetDatabase.FindAssets("t:Tile", new[] {$"{base_path}{theme}{two_five}"});
             foreach (var guidPath in guidPaths)
             {
                 var assetPath = AssetDatabase.GUIDToAssetPath(guidPath);
@@ -73,16 +78,16 @@ namespace Stella.Data
 
                 spriteName = spriteName.Replace(" ", "").Replace("&", "And").Replace("_", "");
                 
-                var sprite = AssetDatabase.LoadAssetAtPath<Sprite>(assetPath);
+                var tile = AssetDatabase.LoadAssetAtPath<Tile>(assetPath);
 
                 int id = Theme == MapThemeType.Common
                     ? (int) CommonBlockIdUtil.ConvertEnum(spriteName)
                     : (int) TileBlockIdUtil.ConvertEnum(spriteName);
                 
-                Add(new BlockResourceData
+                Add(new BlockTileResource()
                 {
                     Key = ItemId.By(ItemType.Floor, MapId.By(Theme, Map), id),
-                    Sprite = sprite
+                    Tile = tile
                 });
             }
         }
@@ -92,6 +97,6 @@ namespace Stella.Data
         {
             values = values.OrderBy(x => x.Key.Id).ToList();
         }
-        #endif
+#endif
     }
 }
