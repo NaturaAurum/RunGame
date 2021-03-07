@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19a4c7bdb9e04c2b8ff3d1f302c5e707, type: 3}
+  m_Name: ObstacleBlockSprites
+  m_EditorClassIdentifier: 
+  values:
+  - key:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Sprite: {fileID: 21300000, guid: 2c485f404f6b79e46bf40f28682b23d3, type: 3}
+  - key:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 2
+    Sprite: {fileID: 21300000, guid: fc97ccf59fb092546ba0bebe3e9e0142, type: 3}
+  - key:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Sprite: {fileID: 21300000, guid: 68a3834f2b1dd354787570e78cf15747, type: 3}
+  - key:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 4
+    Sprite: {fileID: 21300000, guid: 95b34bf8a34aa3543949566316d48302, type: 3}
+  - key:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 5
+    Sprite: {fileID: 21300000, guid: a0325b0374e9ebc458051a5756fdef31, type: 3}
+  Map: 0
+  Theme: 0
