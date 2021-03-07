@@ -23,7 +23,7 @@ MonoBehaviour:
   Jump02Speed: 10
   ModelPrefab: {fileID: 4236951460826810317, guid: a5a2de83e4cf6a949b344e79b1e47b00,
     type: 3}
-  LocalPosition: {x: 0, y: 0, z: 0}
+  LocalPosition: {x: 0, y: 0.75, z: 0}
   LocalRotation: {x: 0, y: 0, z: 0}
   LocalScale: {x: 1, y: 1, z: 1}
   HpCount: 3
