@@ -20,5 +20,10 @@ namespace Stella.GameLogic.Character.Data
 
         public float Jump01Speed = 20f;
         public float Jump02Speed = 10f;
+
+        public GameObject ModelPrefab;
+
+        public Vector3 LocalPosition { get; internal set; }
+        public Vector3 LocalRotation { get; internal set; }
     }
 }
