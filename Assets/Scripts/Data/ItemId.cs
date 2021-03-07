@@ -37,6 +37,11 @@ namespace Stella.Data
             return itemId;
         }
 
+        public override string ToString()
+        {
+            return $"{Type}.{MapId}.{Id}";
+        }
+
         public static bool operator ==(ItemId i1, ItemId i2)
         {
             var typeSame = i1.Type == i2.Type;
@@ -80,6 +85,11 @@ namespace Stella.Data
             mapId.Type = map;
 
             return mapId;
+        }
+
+        public override string ToString()
+        {
+            return $"{Type}.{Theme}";
         }
 
         public static bool operator ==(MapId x1, MapId x2)

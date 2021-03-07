@@ -34,6 +34,8 @@ namespace Stella.Data
     {
         public MapType Map;
         public MapThemeType Theme;
+
+        public ItemType Type;
         
         public Tile GetTile(ItemId itemId)
         {

@@ -11,7 +11,7 @@ namespace Stella.GameLogic.Environment.Map
     [CustomEditor(typeof(MapTool))]
     public class MapToolEditor : OdinEditor
     {
-        private const string DataPathBase = "Assets/GameAsset/ScriptAsset/";
+        private const string DataPathBase = "Assets/Resources/ScriptAsset/";
         private static readonly string MapDataPath = $"{DataPathBase}Map/";
 
         private MapTool mapTool = null;
@@ -92,12 +92,6 @@ namespace Stella.GameLogic.Environment.Map
 
         private void Convert()
         {
-            var currBlockTileData = mapTool.GetCurrBlockTileData();
-            if (currBlockTileData == null)
-            {
-                Debug.LogError($"current block tile data not found!!");
-                return;
-            }
             var tileMap = mapTool.TargetTileMap;
             var cellBounds = tileMap.cellBounds;
             var data = mapTool.Data;
@@ -109,7 +103,7 @@ namespace Stella.GameLogic.Environment.Map
                     var tile = tileMap.GetTile<Tile>(pos);
                     if (tile != null)
                     {
-                        var id = currBlockTileData.FindIdByValue(tile);
+                        var id = mapTool.FindIdByValue(tile);
                         if (id.HasValue)
                         {
                             var worldPos = tileMap.CellToWorld(pos);
@@ -128,20 +122,19 @@ namespace Stella.GameLogic.Environment.Map
 
         private void Load()
         {
-            var currBlockTileData = mapTool.GetCurrBlockTileData();
-            if (currBlockTileData == null)
-            {
-                Debug.LogError($"current block tile data not found!!");
-                return;
-            }
             ClearTile();
+            
+            
             var tileMap = mapTool.TargetTileMap;
             var data = mapTool.Data;
+            mapTool.Id = data.Id;
+            mapTool.SubType = data.SubType;
             var blockInfoList = data.BlockInfoList;
+
             foreach (var blockInfo in blockInfoList)
             {
                 var id = blockInfo.Id;
-                var tile = currBlockTileData.GetTile(id);
+                var tile = mapTool.FindTileById(id);
                 var cellPos = tileMap.WorldToCell(blockInfo.Position);
                 tileMap.SetTile(cellPos, tile);
             }
