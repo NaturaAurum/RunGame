@@ -22,2071 +22,6 @@ MonoBehaviour:
       MapId:
         Theme: 3
         Type: 1
-      Id: 1
-    Position: {x: 1034.24, y: -102.399994}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 2
-    Position: {x: 1039.36, y: -102.399994}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 3
-    Position: {x: 1044.48, y: -102.399994}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 1
-    Position: {x: 768, y: -92.159996}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 2
-    Position: {x: 773.12, y: -92.159996}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 3
-    Position: {x: 778.24, y: -92.159996}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 5
-    Position: {x: 819.19995, y: -92.159996}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 2
-    Position: {x: 824.32, y: -92.159996}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 3
-    Position: {x: 829.44, y: -92.159996}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 1
-    Position: {x: 855.04, y: -92.159996}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 2
-    Position: {x: 860.16, y: -92.159996}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 3
-    Position: {x: 865.27997, y: -92.159996}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 1
-    Position: {x: 885.76, y: -92.159996}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 2
-    Position: {x: 890.88, y: -92.159996}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 3
-    Position: {x: 896, y: -92.159996}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 1
-    Position: {x: 926.72, y: -92.159996}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 2
-    Position: {x: 931.83997, y: -92.159996}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 3
-    Position: {x: 936.95996, y: -92.159996}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 15
-    Position: {x: 957.44, y: -92.159996}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 16
-    Position: {x: 962.56, y: -92.159996}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 17
-    Position: {x: 967.68, y: -92.159996}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 18
-    Position: {x: 972.8, y: -92.159996}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 19
-    Position: {x: 977.92, y: -92.159996}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 15
-    Position: {x: 983.04, y: -92.159996}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 16
-    Position: {x: 988.16, y: -92.159996}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 17
-    Position: {x: 993.27997, y: -92.159996}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 18
-    Position: {x: 998.39996, y: -92.159996}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 19
-    Position: {x: 1003.51996, y: -92.159996}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 834.56, y: -87.04}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 870.39996, y: -87.04}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 901.12, y: -87.04}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 942.07996, y: -87.04}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 983.04, y: -87.04}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 1018.88, y: -87.04}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 1018.88, y: -81.92}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 993.27997, y: -76.799995}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 445.44, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 450.56, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 455.68, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 460.8, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 465.91998, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 471.03998, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 476.16, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 481.28, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 486.4, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 491.52, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 9
-    Position: {x: 496.63998, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 8
-    Position: {x: 501.75998, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 1
-    Position: {x: 532.48, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 2
-    Position: {x: 537.6, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 3
-    Position: {x: 542.72, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 15
-    Position: {x: 547.83997, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 16
-    Position: {x: 552.95996, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 17
-    Position: {x: 558.08, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 18
-    Position: {x: 563.2, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 19
-    Position: {x: 568.32, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 15
-    Position: {x: 573.44, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 16
-    Position: {x: 578.56, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 17
-    Position: {x: 583.68, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 18
-    Position: {x: 588.8, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 19
-    Position: {x: 593.92, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 15
-    Position: {x: 599.04, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 16
-    Position: {x: 604.16, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 17
-    Position: {x: 609.27997, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 18
-    Position: {x: 614.39996, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 19
-    Position: {x: 619.51996, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 15
-    Position: {x: 624.64, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 16
-    Position: {x: 629.76, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 17
-    Position: {x: 634.88, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 18
-    Position: {x: 640, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 19
-    Position: {x: 645.12, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 5
-    Position: {x: 670.72, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 7
-    Position: {x: 675.83997, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 680.95996, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 686.07996, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 691.2, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 696.32, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 701.44, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 706.56, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 711.68, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 716.8, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 721.92, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 727.04, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 732.16, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 445.44, y: -51.199997}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 450.56, y: -51.199997}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 455.68, y: -51.199997}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 460.8, y: -51.199997}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 465.91998, y: -51.199997}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 471.03998, y: -51.199997}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 476.16, y: -51.199997}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 481.28, y: -51.199997}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 486.4, y: -51.199997}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 9
-    Position: {x: 491.52, y: -51.199997}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 8
-    Position: {x: 496.63998, y: -51.199997}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 5
-    Position: {x: 527.36, y: -51.199997}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 558.08, y: -51.199997}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 583.68, y: -51.199997}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 614.39996, y: -51.199997}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 619.51996, y: -51.199997}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 624.64, y: -51.199997}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 629.76, y: -51.199997}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 634.88, y: -51.199997}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 640, y: -51.199997}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 5
-    Position: {x: 675.83997, y: -51.199997}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 6
-    Position: {x: 680.95996, y: -51.199997}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 686.07996, y: -51.199997}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 691.2, y: -51.199997}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 696.32, y: -51.199997}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 701.44, y: -51.199997}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 706.56, y: -51.199997}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 711.68, y: -51.199997}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 716.8, y: -51.199997}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 721.92, y: -51.199997}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 727.04, y: -51.199997}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 732.16, y: -51.199997}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 445.44, y: -46.079998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 450.56, y: -46.079998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 455.68, y: -46.079998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 460.8, y: -46.079998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 465.91998, y: -46.079998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 471.03998, y: -46.079998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 476.16, y: -46.079998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 481.28, y: -46.079998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 9
-    Position: {x: 486.4, y: -46.079998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 8
-    Position: {x: 491.52, y: -46.079998}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 563.2, y: -46.079998}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 568.32, y: -46.079998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 5
-    Position: {x: 680.95996, y: -46.079998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 7
-    Position: {x: 686.07996, y: -46.079998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 691.2, y: -46.079998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 696.32, y: -46.079998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 701.44, y: -46.079998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 706.56, y: -46.079998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 711.68, y: -46.079998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 716.8, y: -46.079998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 721.92, y: -46.079998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 727.04, y: -46.079998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 732.16, y: -46.079998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 445.44, y: -40.96}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 450.56, y: -40.96}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 455.68, y: -40.96}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 460.8, y: -40.96}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 465.91998, y: -40.96}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 471.03998, y: -40.96}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 476.16, y: -40.96}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 9
-    Position: {x: 481.28, y: -40.96}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 8
-    Position: {x: 486.4, y: -40.96}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 542.72, y: -40.96}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 547.83997, y: -40.96}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 599.04, y: -40.96}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 604.16, y: -40.96}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 5
-    Position: {x: 686.07996, y: -40.96}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 7
-    Position: {x: 691.2, y: -40.96}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 696.32, y: -40.96}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 701.44, y: -40.96}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 706.56, y: -40.96}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 711.68, y: -40.96}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 716.8, y: -40.96}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 721.92, y: -40.96}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 727.04, y: -40.96}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 732.16, y: -40.96}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 445.44, y: -35.84}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 450.56, y: -35.84}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 455.68, y: -35.84}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 460.8, y: -35.84}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 465.91998, y: -35.84}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 471.03998, y: -35.84}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 9
-    Position: {x: 476.16, y: -35.84}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 8
-    Position: {x: 481.28, y: -35.84}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 542.72, y: -35.84}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 547.83997, y: -35.84}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 593.92, y: -35.84}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 5
-    Position: {x: 691.2, y: -35.84}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 7
-    Position: {x: 696.32, y: -35.84}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 701.44, y: -35.84}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 706.56, y: -35.84}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 711.68, y: -35.84}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 716.8, y: -35.84}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 721.92, y: -35.84}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 727.04, y: -35.84}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 732.16, y: -35.84}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 445.44, y: -30.72}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 450.56, y: -30.72}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 455.68, y: -30.72}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 460.8, y: -30.72}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 465.91998, y: -30.72}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 9
-    Position: {x: 471.03998, y: -30.72}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 8
-    Position: {x: 476.16, y: -30.72}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 542.72, y: -30.72}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 547.83997, y: -30.72}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 588.8, y: -30.72}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 5
-    Position: {x: 696.32, y: -30.72}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 7
-    Position: {x: 701.44, y: -30.72}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 706.56, y: -30.72}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 711.68, y: -30.72}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 716.8, y: -30.72}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 721.92, y: -30.72}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 727.04, y: -30.72}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 732.16, y: -30.72}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 5
-    Position: {x: 240.64, y: -25.599998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 21
-    Position: {x: 245.76, y: -25.599998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 14
-    Position: {x: 256, y: -25.599998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 11
-    Position: {x: 261.12, y: -25.599998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 12
-    Position: {x: 266.24, y: -25.599998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 13
-    Position: {x: 271.36, y: -25.599998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 445.44, y: -25.599998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 450.56, y: -25.599998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 455.68, y: -25.599998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 460.8, y: -25.599998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 9
-    Position: {x: 465.91998, y: -25.599998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 8
-    Position: {x: 471.03998, y: -25.599998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 5
-    Position: {x: 701.44, y: -25.599998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 7
-    Position: {x: 706.56, y: -25.599998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 711.68, y: -25.599998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 716.8, y: -25.599998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 721.92, y: -25.599998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 727.04, y: -25.599998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 732.16, y: -25.599998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 0
-    Position: {x: 230.4, y: -20.48}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 250.87999, y: -20.48}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 1
-    Position: {x: 302.08, y: -20.48}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 2
-    Position: {x: 307.19998, y: -20.48}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 3
-    Position: {x: 312.32, y: -20.48}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 317.44, y: -20.48}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 2
-    Position: {x: 322.56, y: -20.48}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 3
-    Position: {x: 327.68, y: -20.48}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 1
-    Position: {x: 332.8, y: -20.48}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 337.91998, y: -20.48}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 3
-    Position: {x: 343.03998, y: -20.48}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 1
-    Position: {x: 348.16, y: -20.48}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 2
-    Position: {x: 353.28, y: -20.48}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 3
-    Position: {x: 358.4, y: -20.48}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 14
-    Position: {x: 378.88, y: -20.48}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 11
-    Position: {x: 384, y: -20.48}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 12
-    Position: {x: 389.12, y: -20.48}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 13
-    Position: {x: 394.24, y: -20.48}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 14
-    Position: {x: 414.72, y: -20.48}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 11
-    Position: {x: 419.84, y: -20.48}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 12
-    Position: {x: 424.96, y: -20.48}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 13
-    Position: {x: 430.08, y: -20.48}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 445.44, y: -20.48}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 450.56, y: -20.48}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 455.68, y: -20.48}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 9
-    Position: {x: 460.8, y: -20.48}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 8
-    Position: {x: 465.91998, y: -20.48}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 5
-    Position: {x: 706.56, y: -20.48}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 6
-    Position: {x: 711.68, y: -20.48}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 716.8, y: -20.48}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 721.92, y: -20.48}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 727.04, y: -20.48}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 732.16, y: -20.48}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 5
-    Position: {x: 307.19998, y: -15.36}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 8
-    Position: {x: 312.32, y: -15.36}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 5
-    Position: {x: 327.68, y: -15.36}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 8
-    Position: {x: 332.8, y: -15.36}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 5
-    Position: {x: 348.16, y: -15.36}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 8
-    Position: {x: 353.28, y: -15.36}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 378.88, y: -15.36}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 414.72, y: -15.36}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 1
-    Position: {x: 445.44, y: -15.36}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 2
-    Position: {x: 450.56, y: -15.36}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 3
-    Position: {x: 455.68, y: -15.36}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 8
-    Position: {x: 460.8, y: -15.36}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 5
-    Position: {x: 711.68, y: -15.36}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 7
-    Position: {x: 716.8, y: -15.36}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 721.92, y: -15.36}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 727.04, y: -15.36}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 732.16, y: -15.36}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 0
-    Position: {x: 209.92, y: -10.24}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 266.24, y: -10.24}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 271.36, y: -10.24}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 5
-    Position: {x: 716.8, y: -10.24}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 6
-    Position: {x: 721.92, y: -10.24}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 727.04, y: -10.24}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 732.16, y: -10.24}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 256, y: -5.12}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 261.12, y: -5.12}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 0
-    Position: {x: 302.08, y: -5.12}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 1
-    Position: {x: 307.19998, y: -5.12}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 0
-    Position: {x: 312.32, y: -5.12}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 1
-    Position: {x: 317.44, y: -5.12}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 0
-    Position: {x: 322.56, y: -5.12}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 1
-    Position: {x: 327.68, y: -5.12}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 0
-    Position: {x: 332.8, y: -5.12}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 1
-    Position: {x: 337.91998, y: -5.12}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 0
-    Position: {x: 343.03998, y: -5.12}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 1
-    Position: {x: 348.16, y: -5.12}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 0
-    Position: {x: 353.28, y: -5.12}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 1
-    Position: {x: 358.4, y: -5.12}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 394.24, y: -5.12}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 430.08, y: -5.12}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 5
-    Position: {x: 721.92, y: -5.12}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
-      Id: 7
-    Position: {x: 727.04, y: -5.12}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 732.16, y: -5.12}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 3
-        Type: 1
       Id: 0
     Position: {x: 0, y: 0}
   - Id:
@@ -2283,8 +218,120 @@ MonoBehaviour:
       MapId:
         Theme: 3
         Type: 1
+      Id: 0
+    Position: {x: 209.92, y: -10.24}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 0
+    Position: {x: 230.4, y: -20.48}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 5
+    Position: {x: 240.64, y: -25.599998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 21
+    Position: {x: 245.76, y: -25.599998}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 250.87999, y: -20.48}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 256, y: -5.12}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 14
+    Position: {x: 256, y: -25.599998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 11
+    Position: {x: 261.12, y: -25.599998}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 261.12, y: -5.12}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 266.24, y: -10.24}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 12
+    Position: {x: 266.24, y: -25.599998}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 271.36, y: -10.24}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 13
+    Position: {x: 271.36, y: -25.599998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 0
+    Position: {x: 302.08, y: -5.12}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 1
+    Position: {x: 302.08, y: -20.48}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
       Id: 1
     Position: {x: 302.08, y: 0}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 5
+    Position: {x: 307.19998, y: -15.36}
   - Id:
       Type: 1
       MapId:
@@ -2295,6 +342,34 @@ MonoBehaviour:
   - Id:
       Type: 1
       MapId:
+        Theme: 1
+        Type: 0
+      Id: 1
+    Position: {x: 307.19998, y: -5.12}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 2
+    Position: {x: 307.19998, y: -20.48}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 8
+    Position: {x: 312.32, y: -15.36}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 3
+    Position: {x: 312.32, y: -20.48}
+  - Id:
+      Type: 1
+      MapId:
         Theme: 3
         Type: 1
       Id: 3
@@ -2302,10 +377,38 @@ MonoBehaviour:
   - Id:
       Type: 1
       MapId:
+        Theme: 1
+        Type: 0
+      Id: 0
+    Position: {x: 312.32, y: -5.12}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 317.44, y: -20.48}
+  - Id:
+      Type: 1
+      MapId:
         Theme: 3
         Type: 1
       Id: 1
     Position: {x: 317.44, y: 0}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 1
+    Position: {x: 317.44, y: -5.12}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 0
+    Position: {x: 322.56, y: -5.12}
   - Id:
       Type: 1
       MapId:
@@ -2318,8 +421,43 @@ MonoBehaviour:
       MapId:
         Theme: 3
         Type: 1
+      Id: 2
+    Position: {x: 322.56, y: -20.48}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 3
+    Position: {x: 327.68, y: -20.48}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 1
+    Position: {x: 327.68, y: -5.12}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 5
+    Position: {x: 327.68, y: -15.36}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
       Id: 3
     Position: {x: 327.68, y: 0}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 0
+    Position: {x: 332.8, y: -5.12}
   - Id:
       Type: 1
       MapId:
@@ -2332,8 +470,50 @@ MonoBehaviour:
       MapId:
         Theme: 3
         Type: 1
+      Id: 8
+    Position: {x: 332.8, y: -15.36}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 1
+    Position: {x: 332.8, y: -20.48}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 337.91998, y: -20.48}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 1
+    Position: {x: 337.91998, y: -5.12}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
       Id: 2
     Position: {x: 337.91998, y: 0}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 0
+    Position: {x: 343.03998, y: -5.12}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 3
+    Position: {x: 343.03998, y: -20.48}
   - Id:
       Type: 1
       MapId:
@@ -2348,6 +528,48 @@ MonoBehaviour:
         Type: 1
       Id: 1
     Position: {x: 348.16, y: 0}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 1
+    Position: {x: 348.16, y: -5.12}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 1
+    Position: {x: 348.16, y: -20.48}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 5
+    Position: {x: 348.16, y: -15.36}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 8
+    Position: {x: 353.28, y: -15.36}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 0
+    Position: {x: 353.28, y: -5.12}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 2
+    Position: {x: 353.28, y: -20.48}
   - Id:
       Type: 1
       MapId:
@@ -2367,8 +589,1541 @@ MonoBehaviour:
       MapId:
         Theme: 3
         Type: 1
+      Id: 3
+    Position: {x: 358.4, y: -20.48}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 1
+    Position: {x: 358.4, y: -5.12}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 14
+    Position: {x: 378.88, y: -20.48}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 378.88, y: -15.36}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 11
+    Position: {x: 384, y: -20.48}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 12
+    Position: {x: 389.12, y: -20.48}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 13
+    Position: {x: 394.24, y: -20.48}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 394.24, y: -5.12}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 414.72, y: -15.36}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 14
+    Position: {x: 414.72, y: -20.48}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 11
+    Position: {x: 419.84, y: -20.48}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 12
+    Position: {x: 424.96, y: -20.48}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 430.08, y: -5.12}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 13
+    Position: {x: 430.08, y: -20.48}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 445.44, y: -25.599998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 445.44, y: -40.96}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 445.44, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 1
+    Position: {x: 445.44, y: -15.36}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 445.44, y: -35.84}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 445.44, y: -30.72}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 445.44, y: -51.199997}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 445.44, y: -20.48}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 445.44, y: -46.079998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 450.56, y: -20.48}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 450.56, y: -51.199997}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 450.56, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 450.56, y: -35.84}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 2
+    Position: {x: 450.56, y: -15.36}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 450.56, y: -30.72}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 450.56, y: -46.079998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 450.56, y: -25.599998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 450.56, y: -40.96}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 3
+    Position: {x: 455.68, y: -15.36}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 455.68, y: -35.84}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 455.68, y: -30.72}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 455.68, y: -20.48}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 455.68, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 455.68, y: -40.96}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 455.68, y: -51.199997}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 455.68, y: -46.079998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 455.68, y: -25.599998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 8
+    Position: {x: 460.8, y: -15.36}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 460.8, y: -30.72}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 460.8, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 460.8, y: -40.96}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 9
+    Position: {x: 460.8, y: -20.48}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 460.8, y: -51.199997}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 460.8, y: -46.079998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 460.8, y: -25.599998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 460.8, y: -35.84}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 465.91998, y: -40.96}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 9
+    Position: {x: 465.91998, y: -25.599998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 465.91998, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 8
+    Position: {x: 465.91998, y: -20.48}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 465.91998, y: -46.079998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 465.91998, y: -35.84}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 465.91998, y: -30.72}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 465.91998, y: -51.199997}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 471.03998, y: -46.079998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 9
+    Position: {x: 471.03998, y: -30.72}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 471.03998, y: -51.199997}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 471.03998, y: -35.84}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 471.03998, y: -40.96}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 8
+    Position: {x: 471.03998, y: -25.599998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 471.03998, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 8
+    Position: {x: 476.16, y: -30.72}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 476.16, y: -40.96}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 476.16, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 476.16, y: -46.079998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 9
+    Position: {x: 476.16, y: -35.84}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 476.16, y: -51.199997}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 8
+    Position: {x: 481.28, y: -35.84}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 481.28, y: -51.199997}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 481.28, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 9
+    Position: {x: 481.28, y: -40.96}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 481.28, y: -46.079998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 8
+    Position: {x: 486.4, y: -40.96}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 9
+    Position: {x: 486.4, y: -46.079998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 486.4, y: -51.199997}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 486.4, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 491.52, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 9
+    Position: {x: 491.52, y: -51.199997}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 8
+    Position: {x: 491.52, y: -46.079998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 9
+    Position: {x: 496.63998, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 8
+    Position: {x: 496.63998, y: -51.199997}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 8
+    Position: {x: 501.75998, y: -56.32}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 5
+    Position: {x: 527.36, y: -51.199997}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 1
+    Position: {x: 532.48, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 2
+    Position: {x: 537.6, y: -56.32}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 542.72, y: -40.96}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 542.72, y: -30.72}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 542.72, y: -35.84}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 3
+    Position: {x: 542.72, y: -56.32}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 547.83997, y: -40.96}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 547.83997, y: -35.84}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 15
+    Position: {x: 547.83997, y: -56.32}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 547.83997, y: -30.72}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 16
+    Position: {x: 552.95996, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 17
+    Position: {x: 558.08, y: -56.32}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 558.08, y: -51.199997}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 563.2, y: -46.079998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 18
+    Position: {x: 563.2, y: -56.32}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 568.32, y: -46.079998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 19
+    Position: {x: 568.32, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 15
+    Position: {x: 573.44, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 16
+    Position: {x: 578.56, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 17
+    Position: {x: 583.68, y: -56.32}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 583.68, y: -51.199997}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 18
+    Position: {x: 588.8, y: -56.32}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 588.8, y: -30.72}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 593.92, y: -35.84}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 19
+    Position: {x: 593.92, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 15
+    Position: {x: 599.04, y: -56.32}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 599.04, y: -40.96}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 16
+    Position: {x: 604.16, y: -56.32}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 604.16, y: -40.96}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 17
+    Position: {x: 609.27997, y: -56.32}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 614.39996, y: -51.199997}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 18
+    Position: {x: 614.39996, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 19
+    Position: {x: 619.51996, y: -56.32}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 619.51996, y: -51.199997}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 15
+    Position: {x: 624.64, y: -56.32}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 624.64, y: -51.199997}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 629.76, y: -51.199997}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 16
+    Position: {x: 629.76, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 17
+    Position: {x: 634.88, y: -56.32}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 634.88, y: -51.199997}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 18
+    Position: {x: 640, y: -56.32}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 640, y: -51.199997}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 19
+    Position: {x: 645.12, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 5
+    Position: {x: 670.72, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 5
+    Position: {x: 675.83997, y: -51.199997}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 7
+    Position: {x: 675.83997, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 680.95996, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 5
+    Position: {x: 680.95996, y: -46.079998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 6
+    Position: {x: 680.95996, y: -51.199997}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 7
+    Position: {x: 686.07996, y: -46.079998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 686.07996, y: -51.199997}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 5
+    Position: {x: 686.07996, y: -40.96}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 686.07996, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 691.2, y: -51.199997}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 5
+    Position: {x: 691.2, y: -35.84}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 7
+    Position: {x: 691.2, y: -40.96}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 691.2, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 691.2, y: -46.079998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 696.32, y: -51.199997}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 696.32, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 7
+    Position: {x: 696.32, y: -35.84}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 696.32, y: -46.079998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 5
+    Position: {x: 696.32, y: -30.72}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 696.32, y: -40.96}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 701.44, y: -51.199997}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 5
+    Position: {x: 701.44, y: -25.599998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 701.44, y: -35.84}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 701.44, y: -40.96}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 701.44, y: -46.079998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 701.44, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 7
+    Position: {x: 701.44, y: -30.72}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 706.56, y: -51.199997}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 706.56, y: -40.96}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 706.56, y: -30.72}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 706.56, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 5
+    Position: {x: 706.56, y: -20.48}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 7
+    Position: {x: 706.56, y: -25.599998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 706.56, y: -46.079998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 706.56, y: -35.84}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 711.68, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 5
+    Position: {x: 711.68, y: -15.36}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 711.68, y: -35.84}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 711.68, y: -51.199997}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 711.68, y: -30.72}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 6
+    Position: {x: 711.68, y: -20.48}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 711.68, y: -46.079998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 711.68, y: -25.599998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 711.68, y: -40.96}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 716.8, y: -46.079998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 7
+    Position: {x: 716.8, y: -15.36}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 716.8, y: -30.72}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 716.8, y: -40.96}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 716.8, y: -35.84}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 716.8, y: -20.48}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 716.8, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 5
+    Position: {x: 716.8, y: -10.24}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 716.8, y: -51.199997}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 716.8, y: -25.599998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 5
+    Position: {x: 721.92, y: -5.12}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 721.92, y: -40.96}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 721.92, y: -15.36}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 721.92, y: -30.72}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 6
+    Position: {x: 721.92, y: -10.24}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 721.92, y: -25.599998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 721.92, y: -51.199997}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 721.92, y: -20.48}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 721.92, y: -35.84}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 721.92, y: -46.079998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 721.92, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 727.04, y: -40.96}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 727.04, y: -20.48}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 727.04, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 727.04, y: -35.84}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 727.04, y: -51.199997}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 727.04, y: -10.24}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 727.04, y: -30.72}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 7
+    Position: {x: 727.04, y: -5.12}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
       Id: 5
     Position: {x: 727.04, y: 0}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 727.04, y: -25.599998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 727.04, y: -46.079998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 727.04, y: -15.36}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 732.16, y: -15.36}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 5
+    Position: {x: 732.16, y: 5.12}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 732.16, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 732.16, y: -25.599998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 732.16, y: -51.199997}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 732.16, y: -10.24}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 732.16, y: -20.48}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 732.16, y: -30.72}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 732.16, y: -46.079998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 732.16, y: -40.96}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 732.16, y: -5.12}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 732.16, y: -35.84}
   - Id:
       Type: 1
       MapId:
@@ -2381,5 +2136,250 @@ MonoBehaviour:
       MapId:
         Theme: 3
         Type: 1
+      Id: 1
+    Position: {x: 768, y: -92.159996}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 2
+    Position: {x: 773.12, y: -92.159996}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 3
+    Position: {x: 778.24, y: -92.159996}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
       Id: 5
-    Position: {x: 732.16, y: 5.12}
+    Position: {x: 819.19995, y: -92.159996}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 2
+    Position: {x: 824.32, y: -92.159996}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 3
+    Position: {x: 829.44, y: -92.159996}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 834.56, y: -87.04}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 1
+    Position: {x: 855.04, y: -92.159996}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 2
+    Position: {x: 860.16, y: -92.159996}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 3
+    Position: {x: 865.27997, y: -92.159996}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 870.39996, y: -87.04}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 1
+    Position: {x: 885.76, y: -92.159996}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 2
+    Position: {x: 890.88, y: -92.159996}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 3
+    Position: {x: 896, y: -92.159996}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 901.12, y: -87.04}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 1
+    Position: {x: 926.72, y: -92.159996}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 2
+    Position: {x: 931.83997, y: -92.159996}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 3
+    Position: {x: 936.95996, y: -92.159996}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 942.07996, y: -87.04}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 15
+    Position: {x: 957.44, y: -92.159996}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 16
+    Position: {x: 962.56, y: -92.159996}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 17
+    Position: {x: 967.68, y: -92.159996}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 18
+    Position: {x: 972.8, y: -92.159996}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 19
+    Position: {x: 977.92, y: -92.159996}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 15
+    Position: {x: 983.04, y: -92.159996}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 983.04, y: -87.04}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 16
+    Position: {x: 988.16, y: -92.159996}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 993.27997, y: -76.799995}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 17
+    Position: {x: 993.27997, y: -92.159996}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 18
+    Position: {x: 998.39996, y: -92.159996}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 19
+    Position: {x: 1003.51996, y: -92.159996}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 1018.88, y: -87.04}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 1018.88, y: -81.92}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 1
+    Position: {x: 1034.24, y: -102.399994}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 2
+    Position: {x: 1039.36, y: -102.399994}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 3
+        Type: 1
+      Id: 3
+    Position: {x: 1044.48, y: -102.399994}
