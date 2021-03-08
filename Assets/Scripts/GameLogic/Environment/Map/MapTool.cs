@@ -37,6 +37,11 @@ namespace Stella.GameLogic.Environment.Map
 
         private void Start()
         {
+            Init();
+        }
+
+        public void Init()
+        {
             GameManager.Instance.SetMapData(Data);
         }
 
