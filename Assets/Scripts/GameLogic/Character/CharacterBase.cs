@@ -84,6 +84,7 @@ namespace Stella.GameLogic.Character
             if (state is HitState)
             {
                 Invincible = true;
+                hp.Value--;
                 CameraController.Instance.Shake(CharacterData.ShakePower);
             }
         }

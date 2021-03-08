@@ -67,13 +67,6 @@ MonoBehaviour:
       Id: 1
     Position: {x: 10.24, y: -20.48}
   - Id:
-      Type: 1
-      MapId:
-        Theme: 4
-        Type: 1
-      Id: 11
-    Position: {x: 15.36, y: -10.24}
-  - Id:
       Type: 3
       MapId:
         Theme: 0
@@ -87,6 +80,13 @@ MonoBehaviour:
         Type: 0
       Id: 1
     Position: {x: 15.36, y: -20.48}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 4
+        Type: 1
+      Id: 11
+    Position: {x: 15.36, y: -10.24}
   - Id:
       Type: 1
       MapId:
@@ -130,6 +130,13 @@ MonoBehaviour:
       Id: 1
     Position: {x: 25.599998, y: -20.48}
   - Id:
+      Type: 2
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 30.72, y: -20.48}
+  - Id:
       Type: 1
       MapId:
         Theme: 4
@@ -144,12 +151,19 @@ MonoBehaviour:
       Id: 7
     Position: {x: 30.72, y: -10.24}
   - Id:
-      Type: 2
+      Type: 1
       MapId:
-        Theme: 0
+        Theme: 1
         Type: 0
-      Id: 1
-    Position: {x: 30.72, y: -20.48}
+      Id: 5
+    Position: {x: 35.84, y: -10.24}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 4
+        Type: 1
+      Id: 15
+    Position: {x: 35.84, y: -5.12}
   - Id:
       Type: 3
       MapId:
@@ -164,20 +178,6 @@ MonoBehaviour:
         Type: 0
       Id: 1
     Position: {x: 35.84, y: -20.48}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 35.84, y: -10.24}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 4
-        Type: 1
-      Id: 15
-    Position: {x: 35.84, y: -5.12}
   - Id:
       Type: 1
       MapId:
@@ -221,26 +221,12 @@ MonoBehaviour:
       Id: 17
     Position: {x: 46.079998, y: -5.12}
   - Id:
-      Type: 3
+      Type: 1
       MapId:
-        Theme: 0
-        Type: 0
-      Id: 5
-    Position: {x: 51.199997, y: 10.24}
-  - Id:
-      Type: 2
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 51.199997, y: -20.48}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 5
-    Position: {x: 51.199997, y: 0}
+        Theme: 4
+        Type: 1
+      Id: 18
+    Position: {x: 51.199997, y: -5.12}
   - Id:
       Type: 3
       MapId:
@@ -256,12 +242,26 @@ MonoBehaviour:
       Id: 5
     Position: {x: 51.199997, y: -10.24}
   - Id:
-      Type: 1
+      Type: 2
       MapId:
-        Theme: 4
-        Type: 1
-      Id: 18
-    Position: {x: 51.199997, y: -5.12}
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 51.199997, y: -20.48}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 5
+    Position: {x: 51.199997, y: 10.24}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 5
+    Position: {x: 51.199997, y: 0}
   - Id:
       Type: 1
       MapId:
@@ -312,6 +312,13 @@ MonoBehaviour:
       Id: 5
     Position: {x: 61.44, y: -15.36}
   - Id:
+      Type: 1
+      MapId:
+        Theme: 4
+        Type: 1
+      Id: 8
+    Position: {x: 66.56, y: -10.24}
+  - Id:
       Type: 2
       MapId:
         Theme: 0
@@ -326,12 +333,12 @@ MonoBehaviour:
       Id: 9
     Position: {x: 66.56, y: -15.36}
   - Id:
-      Type: 1
+      Type: 2
       MapId:
-        Theme: 4
-        Type: 1
-      Id: 8
-    Position: {x: 66.56, y: -10.24}
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 71.68, y: -20.48}
   - Id:
       Type: 1
       MapId:
@@ -339,13 +346,6 @@ MonoBehaviour:
         Type: 1
       Id: 8
     Position: {x: 71.68, y: -15.36}
-  - Id:
-      Type: 2
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 71.68, y: -20.48}
   - Id:
       Type: 3
       MapId:
@@ -396,20 +396,6 @@ MonoBehaviour:
       Id: 6
     Position: {x: 87.04, y: -15.36}
   - Id:
-      Type: 1
-      MapId:
-        Theme: 4
-        Type: 1
-      Id: 6
-    Position: {x: 92.159996, y: -10.24}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 4
-        Type: 1
-      Id: 5
-    Position: {x: 92.159996, y: -5.12}
-  - Id:
       Type: 2
       MapId:
         Theme: 0
@@ -423,6 +409,20 @@ MonoBehaviour:
         Type: 0
       Id: 5
     Position: {x: 92.159996, y: -15.36}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 4
+        Type: 1
+      Id: 6
+    Position: {x: 92.159996, y: -10.24}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 4
+        Type: 1
+      Id: 5
+    Position: {x: 92.159996, y: -5.12}
   - Id:
       Type: 1
       MapId:
@@ -468,6 +468,13 @@ MonoBehaviour:
   - Id:
       Type: 1
       MapId:
+        Theme: 4
+        Type: 1
+      Id: 17
+    Position: {x: 107.52, y: -5.12}
+  - Id:
+      Type: 1
+      MapId:
         Theme: 1
         Type: 0
       Id: 5
@@ -484,15 +491,8 @@ MonoBehaviour:
       MapId:
         Theme: 4
         Type: 1
-      Id: 17
-    Position: {x: 107.52, y: -5.12}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 112.64, y: -10.24}
+      Id: 18
+    Position: {x: 112.64, y: -5.12}
   - Id:
       Type: 2
       MapId:
@@ -503,10 +503,10 @@ MonoBehaviour:
   - Id:
       Type: 1
       MapId:
-        Theme: 4
-        Type: 1
-      Id: 18
-    Position: {x: 112.64, y: -5.12}
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 112.64, y: -10.24}
   - Id:
       Type: 1
       MapId:
@@ -561,13 +561,6 @@ MonoBehaviour:
       MapId:
         Theme: 4
         Type: 1
-      Id: 11
-    Position: {x: 128, y: 10.24}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 4
-        Type: 1
       Id: 15
     Position: {x: 128, y: -10.24}
   - Id:
@@ -577,6 +570,13 @@ MonoBehaviour:
         Type: 0
       Id: 1
     Position: {x: 128, y: -20.48}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 4
+        Type: 1
+      Id: 11
+    Position: {x: 128, y: 10.24}
   - Id:
       Type: 1
       MapId:
@@ -641,19 +641,12 @@ MonoBehaviour:
       Id: 3
     Position: {x: 143.36, y: 5.12}
   - Id:
-      Type: 1
+      Type: 2
       MapId:
-        Theme: 4
-        Type: 1
-      Id: 19
-    Position: {x: 148.48, y: -10.24}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 4
-        Type: 1
-      Id: 0
-    Position: {x: 148.48, y: 10.24}
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 148.48, y: -20.48}
   - Id:
       Type: 3
       MapId:
@@ -662,12 +655,19 @@ MonoBehaviour:
       Id: 3
     Position: {x: 148.48, y: 5.12}
   - Id:
-      Type: 2
+      Type: 1
       MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 148.48, y: -20.48}
+        Theme: 4
+        Type: 1
+      Id: 0
+    Position: {x: 148.48, y: 10.24}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 4
+        Type: 1
+      Id: 19
+    Position: {x: 148.48, y: -10.24}
   - Id:
       Type: 3
       MapId:
@@ -725,19 +725,19 @@ MonoBehaviour:
       Id: 1
     Position: {x: 168.95999, y: -20.48}
   - Id:
-      Type: 2
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 174.08, y: -20.48}
-  - Id:
       Type: 1
       MapId:
         Theme: 4
         Type: 1
       Id: 0
     Position: {x: 174.08, y: 10.24}
+  - Id:
+      Type: 2
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 174.08, y: -20.48}
   - Id:
       Type: 2
       MapId:
@@ -809,19 +809,19 @@ MonoBehaviour:
       Id: 1
     Position: {x: 215.04, y: -20.48}
   - Id:
-      Type: 2
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 220.15999, y: -20.48}
-  - Id:
       Type: 1
       MapId:
         Theme: 4
         Type: 1
       Id: 1
     Position: {x: 220.15999, y: 5.12}
+  - Id:
+      Type: 2
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 220.15999, y: -20.48}
   - Id:
       Type: 1
       MapId:
@@ -850,6 +850,13 @@ MonoBehaviour:
         Type: 0
       Id: 1
     Position: {x: 230.4, y: -20.48}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 5
+    Position: {x: 235.51999, y: -51.199997}
   - Id:
       Type: 2
       MapId:
@@ -883,15 +890,15 @@ MonoBehaviour:
       MapId:
         Theme: 0
         Type: 0
-      Id: 5
-    Position: {x: 235.51999, y: -51.199997}
+      Id: 3
+    Position: {x: 240.64, y: -30.72}
   - Id:
-      Type: 2
+      Type: 3
       MapId:
         Theme: 0
         Type: 0
-      Id: 1
-    Position: {x: 240.64, y: -56.32}
+      Id: 5
+    Position: {x: 240.64, y: -25.599998}
   - Id:
       Type: 3
       MapId:
@@ -905,6 +912,13 @@ MonoBehaviour:
         Theme: 0
         Type: 0
       Id: 1
+    Position: {x: 240.64, y: -56.32}
+  - Id:
+      Type: 2
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
     Position: {x: 240.64, y: -20.48}
   - Id:
       Type: 3
@@ -912,14 +926,7 @@ MonoBehaviour:
         Theme: 0
         Type: 0
       Id: 5
-    Position: {x: 240.64, y: -25.599998}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 240.64, y: -30.72}
+    Position: {x: 245.76, y: -25.599998}
   - Id:
       Type: 3
       MapId:
@@ -942,26 +949,12 @@ MonoBehaviour:
       Id: 5
     Position: {x: 245.76, y: -51.199997}
   - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 5
-    Position: {x: 245.76, y: -25.599998}
-  - Id:
       Type: 2
       MapId:
         Theme: 0
         Type: 0
       Id: 1
     Position: {x: 245.76, y: -56.32}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 5
-    Position: {x: 250.87999, y: -51.199997}
   - Id:
       Type: 2
       MapId:
@@ -975,7 +968,7 @@ MonoBehaviour:
         Theme: 0
         Type: 0
       Id: 5
-    Position: {x: 256, y: -51.199997}
+    Position: {x: 250.87999, y: -51.199997}
   - Id:
       Type: 2
       MapId:
@@ -983,6 +976,13 @@ MonoBehaviour:
         Type: 0
       Id: 1
     Position: {x: 256, y: -56.32}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 5
+    Position: {x: 256, y: -51.199997}
   - Id:
       Type: 3
       MapId:
@@ -1024,14 +1024,7 @@ MonoBehaviour:
         Theme: 0
         Type: 0
       Id: 5
-    Position: {x: 266.24, y: -51.199997}
-  - Id:
-      Type: 2
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 266.24, y: -56.32}
+    Position: {x: 266.24, y: -25.599998}
   - Id:
       Type: 3
       MapId:
@@ -1040,19 +1033,26 @@ MonoBehaviour:
       Id: 3
     Position: {x: 266.24, y: -30.72}
   - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 5
-    Position: {x: 266.24, y: -25.599998}
-  - Id:
       Type: 2
       MapId:
         Theme: 0
         Type: 0
       Id: 1
     Position: {x: 266.24, y: -20.48}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 5
+    Position: {x: 266.24, y: -51.199997}
+  - Id:
+      Type: 2
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 266.24, y: -56.32}
   - Id:
       Type: 2
       MapId:
@@ -1094,35 +1094,28 @@ MonoBehaviour:
         Theme: 0
         Type: 0
       Id: 5
-    Position: {x: 276.47998, y: 10.24}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 276.47998, y: -30.72}
+    Position: {x: 276.47998, y: -5.12}
   - Id:
       Type: 3
       MapId:
         Theme: 0
         Type: 0
       Id: 5
-    Position: {x: 276.47998, y: -15.36}
+    Position: {x: 276.47998, y: 5.12}
   - Id:
       Type: 3
       MapId:
         Theme: 0
         Type: 0
       Id: 5
-    Position: {x: 276.47998, y: -25.599998}
+    Position: {x: 276.47998, y: -20.48}
   - Id:
       Type: 3
       MapId:
         Theme: 0
         Type: 0
       Id: 5
-    Position: {x: 276.47998, y: 0}
+    Position: {x: 276.47998, y: -10.24}
   - Id:
       Type: 2
       MapId:
@@ -1143,28 +1136,35 @@ MonoBehaviour:
         Theme: 0
         Type: 0
       Id: 5
-    Position: {x: 276.47998, y: -5.12}
+    Position: {x: 276.47998, y: -25.599998}
   - Id:
       Type: 3
       MapId:
         Theme: 0
         Type: 0
       Id: 5
-    Position: {x: 276.47998, y: -10.24}
+    Position: {x: 276.47998, y: -15.36}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 276.47998, y: -30.72}
   - Id:
       Type: 3
       MapId:
         Theme: 0
         Type: 0
       Id: 5
-    Position: {x: 276.47998, y: -20.48}
+    Position: {x: 276.47998, y: 10.24}
   - Id:
       Type: 3
       MapId:
         Theme: 0
         Type: 0
       Id: 5
-    Position: {x: 276.47998, y: 5.12}
+    Position: {x: 276.47998, y: 0}
   - Id:
       Type: 3
       MapId:
@@ -1194,12 +1194,12 @@ MonoBehaviour:
       Id: 3
     Position: {x: 281.6, y: -30.72}
   - Id:
-      Type: 2
+      Type: 3
       MapId:
         Theme: 0
         Type: 0
-      Id: 1
-    Position: {x: 286.72, y: -56.32}
+      Id: 5
+    Position: {x: 286.72, y: -46.079998}
   - Id:
       Type: 3
       MapId:
@@ -1208,12 +1208,12 @@ MonoBehaviour:
       Id: 3
     Position: {x: 286.72, y: -30.72}
   - Id:
-      Type: 3
+      Type: 2
       MapId:
         Theme: 0
         Type: 0
-      Id: 5
-    Position: {x: 286.72, y: -46.079998}
+      Id: 1
+    Position: {x: 286.72, y: -56.32}
   - Id:
       Type: 2
       MapId:
@@ -1282,8 +1282,15 @@ MonoBehaviour:
       MapId:
         Theme: 0
         Type: 0
+      Id: 3
+    Position: {x: 307.19998, y: -30.72}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
       Id: 5
-    Position: {x: 307.19998, y: -46.079998}
+    Position: {x: 307.19998, y: -51.199997}
   - Id:
       Type: 2
       MapId:
@@ -1297,14 +1304,7 @@ MonoBehaviour:
         Theme: 0
         Type: 0
       Id: 5
-    Position: {x: 307.19998, y: -51.199997}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 307.19998, y: -30.72}
+    Position: {x: 307.19998, y: -46.079998}
   - Id:
       Type: 2
       MapId:
@@ -1369,19 +1369,19 @@ MonoBehaviour:
       Id: 3
     Position: {x: 322.56, y: -30.72}
   - Id:
-      Type: 2
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 327.68, y: -56.32}
-  - Id:
       Type: 3
       MapId:
         Theme: 0
         Type: 0
       Id: 3
     Position: {x: 327.68, y: -30.72}
+  - Id:
+      Type: 2
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 327.68, y: -56.32}
   - Id:
       Type: 2
       MapId:
@@ -1439,19 +1439,19 @@ MonoBehaviour:
       Id: 3
     Position: {x: 343.03998, y: -30.72}
   - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 348.16, y: -30.72}
-  - Id:
       Type: 2
       MapId:
         Theme: 0
         Type: 0
       Id: 1
     Position: {x: 348.16, y: -56.32}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 348.16, y: -30.72}
   - Id:
       Type: 2
       MapId:
@@ -1509,12 +1509,19 @@ MonoBehaviour:
       Id: 3
     Position: {x: 363.52, y: -30.72}
   - Id:
+      Type: 2
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 368.63998, y: -56.32}
+  - Id:
       Type: 3
       MapId:
         Theme: 0
         Type: 0
       Id: 3
-    Position: {x: 368.63998, y: -35.84}
+    Position: {x: 368.63998, y: -30.72}
   - Id:
       Type: 3
       MapId:
@@ -1528,14 +1535,7 @@ MonoBehaviour:
         Theme: 0
         Type: 0
       Id: 3
-    Position: {x: 368.63998, y: -30.72}
-  - Id:
-      Type: 2
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 368.63998, y: -56.32}
+    Position: {x: 368.63998, y: -35.84}
   - Id:
       Type: 2
       MapId:
@@ -1591,20 +1591,6 @@ MonoBehaviour:
         Theme: 0
         Type: 0
       Id: 3
-    Position: {x: 389.12, y: -30.72}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 5
-    Position: {x: 389.12, y: -51.199997}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
     Position: {x: 389.12, y: -46.079998}
   - Id:
       Type: 2
@@ -1613,6 +1599,20 @@ MonoBehaviour:
         Type: 0
       Id: 1
     Position: {x: 389.12, y: -56.32}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 389.12, y: -30.72}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 5
+    Position: {x: 389.12, y: -51.199997}
   - Id:
       Type: 3
       MapId:
@@ -1670,12 +1670,12 @@ MonoBehaviour:
       Id: 5
     Position: {x: 399.36, y: -51.199997}
   - Id:
-      Type: 2
+      Type: 3
       MapId:
         Theme: 0
         Type: 0
-      Id: 1
-    Position: {x: 404.47998, y: -56.32}
+      Id: 3
+    Position: {x: 404.47998, y: -30.72}
   - Id:
       Type: 3
       MapId:
@@ -1684,12 +1684,12 @@ MonoBehaviour:
       Id: 5
     Position: {x: 404.47998, y: -51.199997}
   - Id:
-      Type: 3
+      Type: 2
       MapId:
         Theme: 0
         Type: 0
-      Id: 3
-    Position: {x: 404.47998, y: -30.72}
+      Id: 1
+    Position: {x: 404.47998, y: -56.32}
   - Id:
       Type: 3
       MapId:
@@ -1731,6 +1731,13 @@ MonoBehaviour:
         Theme: 0
         Type: 0
       Id: 3
+    Position: {x: 419.84, y: -30.72}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
     Position: {x: 419.84, y: -35.84}
   - Id:
       Type: 3
@@ -1740,19 +1747,12 @@ MonoBehaviour:
       Id: 3
     Position: {x: 419.84, y: -40.96}
   - Id:
-      Type: 3
+      Type: 2
       MapId:
         Theme: 0
         Type: 0
-      Id: 3
-    Position: {x: 419.84, y: -30.72}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 5
-    Position: {x: 424.96, y: -51.199997}
+      Id: 1
+    Position: {x: 424.96, y: -56.32}
   - Id:
       Type: 3
       MapId:
@@ -1761,12 +1761,12 @@ MonoBehaviour:
       Id: 3
     Position: {x: 424.96, y: -30.72}
   - Id:
-      Type: 2
+      Type: 3
       MapId:
         Theme: 0
         Type: 0
-      Id: 1
-    Position: {x: 424.96, y: -56.32}
+      Id: 5
+    Position: {x: 424.96, y: -51.199997}
   - Id:
       Type: 3
       MapId:
@@ -1814,6 +1814,13 @@ MonoBehaviour:
       MapId:
         Theme: 0
         Type: 0
+      Id: 3
+    Position: {x: 440.31998, y: -30.72}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
       Id: 5
     Position: {x: 440.31998, y: -51.199997}
   - Id:
@@ -1824,19 +1831,12 @@ MonoBehaviour:
       Id: 1
     Position: {x: 440.31998, y: -56.32}
   - Id:
-      Type: 3
+      Type: 2
       MapId:
         Theme: 0
         Type: 0
-      Id: 3
-    Position: {x: 440.31998, y: -30.72}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 5
-    Position: {x: 445.44, y: -51.199997}
+      Id: 1
+    Position: {x: 445.44, y: -56.32}
   - Id:
       Type: 3
       MapId:
@@ -1845,12 +1845,12 @@ MonoBehaviour:
       Id: 3
     Position: {x: 445.44, y: -30.72}
   - Id:
-      Type: 2
+      Type: 3
       MapId:
         Theme: 0
         Type: 0
-      Id: 1
-    Position: {x: 445.44, y: -56.32}
+      Id: 5
+    Position: {x: 445.44, y: -51.199997}
   - Id:
       Type: 3
       MapId:
@@ -1885,14 +1885,7 @@ MonoBehaviour:
         Theme: 0
         Type: 0
       Id: 3
-    Position: {x: 455.68, y: -40.96}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 455.68, y: -46.079998}
+    Position: {x: 455.68, y: -30.72}
   - Id:
       Type: 3
       MapId:
@@ -1900,13 +1893,6 @@ MonoBehaviour:
         Type: 0
       Id: 5
     Position: {x: 455.68, y: -51.199997}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 455.68, y: -30.72}
   - Id:
       Type: 2
       MapId:
@@ -1919,8 +1905,15 @@ MonoBehaviour:
       MapId:
         Theme: 0
         Type: 0
-      Id: 5
-    Position: {x: 460.8, y: -51.199997}
+      Id: 3
+    Position: {x: 455.68, y: -40.96}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 455.68, y: -46.079998}
   - Id:
       Type: 2
       MapId:
@@ -1935,6 +1928,13 @@ MonoBehaviour:
         Type: 0
       Id: 3
     Position: {x: 460.8, y: -30.72}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 5
+    Position: {x: 460.8, y: -51.199997}
   - Id:
       Type: 2
       MapId:
@@ -2066,20 +2066,6 @@ MonoBehaviour:
       MapId:
         Theme: 0
         Type: 0
-      Id: 5
-    Position: {x: 506.87997, y: -51.199997}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 506.87997, y: -46.079998}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
       Id: 3
     Position: {x: 506.87997, y: -30.72}
   - Id:
@@ -2089,6 +2075,20 @@ MonoBehaviour:
         Type: 0
       Id: 1
     Position: {x: 506.87997, y: -56.32}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 5
+    Position: {x: 506.87997, y: -51.199997}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 506.87997, y: -46.079998}
   - Id:
       Type: 3
       MapId:
@@ -2146,12 +2146,19 @@ MonoBehaviour:
       Id: 3
     Position: {x: 517.12, y: -46.079998}
   - Id:
+      Type: 2
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 522.24, y: -56.32}
+  - Id:
       Type: 3
       MapId:
         Theme: 0
         Type: 0
-      Id: 3
-    Position: {x: 522.24, y: -46.079998}
+      Id: 5
+    Position: {x: 522.24, y: -51.199997}
   - Id:
       Type: 3
       MapId:
@@ -2164,15 +2171,8 @@ MonoBehaviour:
       MapId:
         Theme: 0
         Type: 0
-      Id: 5
-    Position: {x: 522.24, y: -51.199997}
-  - Id:
-      Type: 2
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 522.24, y: -56.32}
+      Id: 3
+    Position: {x: 522.24, y: -46.079998}
   - Id:
       Type: 3
       MapId:
@@ -2223,13 +2223,6 @@ MonoBehaviour:
       Id: 1
     Position: {x: 532.48, y: -56.32}
   - Id:
-      Type: 1
-      MapId:
-        Theme: 4
-        Type: 1
-      Id: 14
-    Position: {x: 537.6, y: -51.199997}
-  - Id:
       Type: 2
       MapId:
         Theme: 0
@@ -2237,12 +2230,12 @@ MonoBehaviour:
       Id: 1
     Position: {x: 537.6, y: -56.32}
   - Id:
-      Type: 2
+      Type: 1
       MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 542.72, y: -56.32}
+        Theme: 4
+        Type: 1
+      Id: 14
+    Position: {x: 537.6, y: -51.199997}
   - Id:
       Type: 1
       MapId:
@@ -2250,6 +2243,13 @@ MonoBehaviour:
         Type: 1
       Id: 11
     Position: {x: 542.72, y: -51.199997}
+  - Id:
+      Type: 2
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 542.72, y: -56.32}
   - Id:
       Type: 2
       MapId:
@@ -2321,19 +2321,19 @@ MonoBehaviour:
       Id: 12
     Position: {x: 568.32, y: -51.199997}
   - Id:
-      Type: 1
-      MapId:
-        Theme: 4
-        Type: 1
-      Id: 13
-    Position: {x: 573.44, y: -51.199997}
-  - Id:
       Type: 2
       MapId:
         Theme: 0
         Type: 0
       Id: 1
     Position: {x: 573.44, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 4
+        Type: 1
+      Id: 13
+    Position: {x: 573.44, y: -51.199997}
   - Id:
       Type: 1
       MapId:
@@ -2391,26 +2391,12 @@ MonoBehaviour:
       Id: 1
     Position: {x: 588.8, y: -56.32}
   - Id:
-      Type: 1
-      MapId:
-        Theme: 4
-        Type: 1
-      Id: 11
-    Position: {x: 593.92, y: -51.199997}
-  - Id:
       Type: 3
       MapId:
         Theme: 0
         Type: 0
       Id: 1
-    Position: {x: 593.92, y: -40.96}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 593.92, y: -46.079998}
+    Position: {x: 593.92, y: -35.84}
   - Id:
       Type: 2
       MapId:
@@ -2424,7 +2410,21 @@ MonoBehaviour:
         Theme: 0
         Type: 0
       Id: 1
-    Position: {x: 593.92, y: -35.84}
+    Position: {x: 593.92, y: -40.96}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 4
+        Type: 1
+      Id: 11
+    Position: {x: 593.92, y: -51.199997}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 593.92, y: -46.079998}
   - Id:
       Type: 2
       MapId:
@@ -2468,19 +2468,19 @@ MonoBehaviour:
       Id: 5
     Position: {x: 609.27997, y: -46.079998}
   - Id:
-      Type: 1
-      MapId:
-        Theme: 4
-        Type: 1
-      Id: 5
-    Position: {x: 614.39996, y: -40.96}
-  - Id:
       Type: 2
       MapId:
         Theme: 0
         Type: 0
       Id: 1
     Position: {x: 614.39996, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 4
+        Type: 1
+      Id: 5
+    Position: {x: 614.39996, y: -40.96}
   - Id:
       Type: 1
       MapId:
@@ -2519,20 +2519,6 @@ MonoBehaviour:
   - Id:
       Type: 1
       MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 624.64, y: -46.079998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 4
-        Type: 1
-      Id: 6
-    Position: {x: 624.64, y: -35.84}
-  - Id:
-      Type: 1
-      MapId:
         Theme: 4
         Type: 1
       Id: 5
@@ -2545,40 +2531,26 @@ MonoBehaviour:
       Id: 1
     Position: {x: 624.64, y: -56.32}
   - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 624.64, y: -46.079998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 4
+        Type: 1
+      Id: 6
+    Position: {x: 624.64, y: -35.84}
+  - Id:
       Type: 3
       MapId:
         Theme: 0
         Type: 0
       Id: 3
     Position: {x: 624.64, y: -40.96}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 629.76, y: -40.96}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 629.76, y: -46.079998}
-  - Id:
-      Type: 2
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 629.76, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 4
-        Type: 1
-      Id: 5
-    Position: {x: 629.76, y: -25.599998}
   - Id:
       Type: 1
       MapId:
@@ -2589,10 +2561,38 @@ MonoBehaviour:
   - Id:
       Type: 1
       MapId:
+        Theme: 4
+        Type: 1
+      Id: 5
+    Position: {x: 629.76, y: -25.599998}
+  - Id:
+      Type: 1
+      MapId:
         Theme: 1
         Type: 0
       Id: 5
     Position: {x: 629.76, y: -35.84}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 629.76, y: -46.079998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 629.76, y: -40.96}
+  - Id:
+      Type: 2
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 629.76, y: -56.32}
   - Id:
       Type: 1
       MapId:
@@ -2645,45 +2645,10 @@ MonoBehaviour:
   - Id:
       Type: 1
       MapId:
-        Theme: 4
-        Type: 1
-      Id: 5
-    Position: {x: 640, y: -15.36}
-  - Id:
-      Type: 2
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 640, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
         Theme: 1
         Type: 0
       Id: 5
-    Position: {x: 640, y: -46.079998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 640, y: -40.96}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 4
-        Type: 1
-      Id: 6
-    Position: {x: 640, y: -20.48}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 640, y: -35.84}
+    Position: {x: 640, y: -30.72}
   - Id:
       Type: 1
       MapId:
@@ -2697,21 +2662,70 @@ MonoBehaviour:
         Theme: 1
         Type: 0
       Id: 5
-    Position: {x: 640, y: -30.72}
+    Position: {x: 640, y: -35.84}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 4
+        Type: 1
+      Id: 6
+    Position: {x: 640, y: -20.48}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 4
+        Type: 1
+      Id: 5
+    Position: {x: 640, y: -15.36}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 640, y: -46.079998}
+  - Id:
+      Type: 2
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 640, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 640, y: -40.96}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 645.12, y: -35.84}
   - Id:
       Type: 3
       MapId:
         Theme: 0
         Type: 0
       Id: 3
-    Position: {x: 645.12, y: -30.72}
+    Position: {x: 645.12, y: -40.96}
   - Id:
-      Type: 3
+      Type: 1
       MapId:
-        Theme: 0
+        Theme: 1
         Type: 0
-      Id: 3
-    Position: {x: 645.12, y: -20.48}
+      Id: 5
+    Position: {x: 645.12, y: -46.079998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 4
+        Type: 1
+      Id: 6
+    Position: {x: 645.12, y: -15.36}
   - Id:
       Type: 2
       MapId:
@@ -2727,6 +2741,20 @@ MonoBehaviour:
       Id: 5
     Position: {x: 645.12, y: -25.599998}
   - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 645.12, y: -20.48}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 645.12, y: -30.72}
+  - Id:
       Type: 1
       MapId:
         Theme: 4
@@ -2739,77 +2767,14 @@ MonoBehaviour:
         Theme: 4
         Type: 1
       Id: 6
-    Position: {x: 645.12, y: -15.36}
+    Position: {x: 650.24, y: -10.24}
   - Id:
       Type: 1
       MapId:
         Theme: 1
         Type: 0
       Id: 5
-    Position: {x: 645.12, y: -35.84}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 645.12, y: -46.079998}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 645.12, y: -40.96}
-  - Id:
-      Type: 2
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 650.24, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 650.24, y: -20.48}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 4
-        Type: 1
-      Id: 5
-    Position: {x: 650.24, y: -5.12}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 650.24, y: -15.36}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 650.24, y: -25.599998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 650.24, y: -46.079998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 650.24, y: -35.84}
+    Position: {x: 650.24, y: -40.96}
   - Id:
       Type: 1
       MapId:
@@ -2823,14 +2788,98 @@ MonoBehaviour:
         Theme: 1
         Type: 0
       Id: 5
-    Position: {x: 650.24, y: -40.96}
+    Position: {x: 650.24, y: -35.84}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 650.24, y: -46.079998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 650.24, y: -15.36}
   - Id:
       Type: 1
       MapId:
         Theme: 4
         Type: 1
-      Id: 6
-    Position: {x: 650.24, y: -10.24}
+      Id: 5
+    Position: {x: 650.24, y: -5.12}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 650.24, y: -20.48}
+  - Id:
+      Type: 2
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 650.24, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 650.24, y: -25.599998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 655.36, y: -15.36}
+  - Id:
+      Type: 2
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 655.36, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 655.36, y: -25.599998}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 655.36, y: -30.72}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 655.36, y: -35.84}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 655.36, y: -46.079998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 4
+        Type: 1
+      Id: 5
+    Position: {x: 655.36, y: 0}
   - Id:
       Type: 3
       MapId:
@@ -2851,119 +2900,14 @@ MonoBehaviour:
         Theme: 0
         Type: 0
       Id: 3
-    Position: {x: 655.36, y: -20.48}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 4
-        Type: 1
-      Id: 5
-    Position: {x: 655.36, y: 0}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
     Position: {x: 655.36, y: -10.24}
   - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 655.36, y: -35.84}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 655.36, y: -15.36}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 655.36, y: -46.079998}
-  - Id:
       Type: 3
       MapId:
         Theme: 0
         Type: 0
       Id: 3
-    Position: {x: 655.36, y: -30.72}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 655.36, y: -25.599998}
-  - Id:
-      Type: 2
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 655.36, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 660.48, y: -5.12}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 4
-        Type: 1
-      Id: 5
-    Position: {x: 660.48, y: 5.12}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 660.48, y: -20.48}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 660.48, y: -10.24}
-  - Id:
-      Type: 2
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 660.48, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 660.48, y: -15.36}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 660.48, y: -30.72}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 660.48, y: -46.079998}
+    Position: {x: 655.36, y: -20.48}
   - Id:
       Type: 1
       MapId:
@@ -2971,6 +2915,20 @@ MonoBehaviour:
         Type: 0
       Id: 5
     Position: {x: 660.48, y: -35.84}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 4
+        Type: 1
+      Id: 6
+    Position: {x: 660.48, y: 0}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 660.48, y: -40.96}
   - Id:
       Type: 1
       MapId:
@@ -2984,42 +2942,105 @@ MonoBehaviour:
         Theme: 1
         Type: 0
       Id: 5
-    Position: {x: 660.48, y: -40.96}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 4
-        Type: 1
-      Id: 6
-    Position: {x: 660.48, y: 0}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 4
-        Type: 1
-      Id: 5
-    Position: {x: 665.6, y: 10.24}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 665.6, y: 0}
+    Position: {x: 660.48, y: -46.079998}
   - Id:
       Type: 1
       MapId:
         Theme: 1
         Type: 0
       Id: 5
-    Position: {x: 665.6, y: -25.599998}
+    Position: {x: 660.48, y: -30.72}
+  - Id:
+      Type: 2
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 660.48, y: -56.32}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 660.48, y: -10.24}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 660.48, y: -20.48}
   - Id:
       Type: 1
       MapId:
         Theme: 4
         Type: 1
-      Id: 6
-    Position: {x: 665.6, y: 5.12}
+      Id: 5
+    Position: {x: 660.48, y: 5.12}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 660.48, y: -5.12}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 660.48, y: -15.36}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 665.6, y: -15.36}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 665.6, y: -35.84}
+  - Id:
+      Type: 2
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 665.6, y: -56.32}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 665.6, y: -40.96}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 665.6, y: -10.24}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 665.6, y: -5.12}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 665.6, y: -20.48}
   - Id:
       Type: 3
       MapId:
@@ -3030,136 +3051,52 @@ MonoBehaviour:
   - Id:
       Type: 1
       MapId:
+        Theme: 4
+        Type: 1
+      Id: 6
+    Position: {x: 665.6, y: 5.12}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 665.6, y: -25.599998}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 665.6, y: 0}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 4
+        Type: 1
+      Id: 5
+    Position: {x: 665.6, y: 10.24}
+  - Id:
+      Type: 1
+      MapId:
         Theme: 1
         Type: 0
       Id: 5
     Position: {x: 665.6, y: -46.079998}
   - Id:
-      Type: 3
+      Type: 1
       MapId:
-        Theme: 0
+        Theme: 1
         Type: 0
-      Id: 3
-    Position: {x: 665.6, y: -20.48}
+      Id: 5
+    Position: {x: 670.72, y: -30.72}
   - Id:
       Type: 1
       MapId:
         Theme: 1
         Type: 0
       Id: 5
-    Position: {x: 665.6, y: -15.36}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 665.6, y: -10.24}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 665.6, y: -40.96}
-  - Id:
-      Type: 2
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 665.6, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 665.6, y: -35.84}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 665.6, y: -5.12}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 670.72, y: -5.12}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 4
-        Type: 1
-      Id: 5
-    Position: {x: 670.72, y: 15.36}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 670.72, y: -25.599998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 670.72, y: -40.96}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 670.72, y: 5.12}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 670.72, y: 0}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 670.72, y: -35.84}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 670.72, y: -46.079998}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 670.72, y: -20.48}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 4
-        Type: 1
-      Id: 6
-    Position: {x: 670.72, y: 10.24}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 1
-        Type: 0
-      Id: 5
-    Position: {x: 670.72, y: -15.36}
+    Position: {x: 670.72, y: -10.24}
   - Id:
       Type: 2
       MapId:
@@ -3173,21 +3110,77 @@ MonoBehaviour:
         Theme: 1
         Type: 0
       Id: 5
-    Position: {x: 670.72, y: -10.24}
+    Position: {x: 670.72, y: -15.36}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 4
+        Type: 1
+      Id: 6
+    Position: {x: 670.72, y: 10.24}
   - Id:
       Type: 1
       MapId:
         Theme: 1
         Type: 0
       Id: 5
-    Position: {x: 670.72, y: -30.72}
+    Position: {x: 670.72, y: -20.48}
   - Id:
-      Type: 2
+      Type: 1
       MapId:
-        Theme: 0
+        Theme: 1
         Type: 0
-      Id: 1
-    Position: {x: 675.83997, y: -56.32}
+      Id: 5
+    Position: {x: 670.72, y: -46.079998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 670.72, y: 0}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 670.72, y: 5.12}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 670.72, y: -40.96}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 670.72, y: -25.599998}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 4
+        Type: 1
+      Id: 5
+    Position: {x: 670.72, y: 15.36}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 670.72, y: -5.12}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 1
+        Type: 0
+      Id: 5
+    Position: {x: 670.72, y: -35.84}
   - Id:
       Type: 1
       MapId:
@@ -3195,6 +3188,13 @@ MonoBehaviour:
         Type: 1
       Id: 0
     Position: {x: 675.83997, y: 15.36}
+  - Id:
+      Type: 2
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 675.83997, y: -56.32}
   - Id:
       Type: 2
       MapId:
@@ -3280,19 +3280,19 @@ MonoBehaviour:
       Id: 3
     Position: {x: 711.68, y: -51.199997}
   - Id:
-      Type: 2
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 716.8, y: -71.68}
-  - Id:
       Type: 3
       MapId:
         Theme: 0
         Type: 0
       Id: 3
     Position: {x: 716.8, y: -46.079998}
+  - Id:
+      Type: 2
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 716.8, y: -71.68}
   - Id:
       Type: 3
       MapId:
@@ -3357,12 +3357,12 @@ MonoBehaviour:
       Id: 3
     Position: {x: 732.16, y: -46.079998}
   - Id:
-      Type: 3
+      Type: 1
       MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 737.27997, y: -40.96}
+        Theme: 4
+        Type: 1
+      Id: 12
+    Position: {x: 737.27997, y: -66.56}
   - Id:
       Type: 2
       MapId:
@@ -3371,12 +3371,12 @@ MonoBehaviour:
       Id: 1
     Position: {x: 737.27997, y: -71.68}
   - Id:
-      Type: 1
+      Type: 3
       MapId:
-        Theme: 4
-        Type: 1
-      Id: 12
-    Position: {x: 737.27997, y: -66.56}
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 737.27997, y: -40.96}
   - Id:
       Type: 1
       MapId:
@@ -3441,12 +3441,12 @@ MonoBehaviour:
       Id: 3
     Position: {x: 752.63995, y: -40.96}
   - Id:
-      Type: 2
+      Type: 3
       MapId:
         Theme: 0
         Type: 0
-      Id: 1
-    Position: {x: 757.76, y: -71.68}
+      Id: 3
+    Position: {x: 757.76, y: -40.96}
   - Id:
       Type: 1
       MapId:
@@ -3455,12 +3455,12 @@ MonoBehaviour:
       Id: 12
     Position: {x: 757.76, y: -61.44}
   - Id:
-      Type: 3
+      Type: 2
       MapId:
         Theme: 0
         Type: 0
-      Id: 3
-    Position: {x: 757.76, y: -40.96}
+      Id: 1
+    Position: {x: 757.76, y: -71.68}
   - Id:
       Type: 2
       MapId:
@@ -3525,6 +3525,13 @@ MonoBehaviour:
       Id: 1
     Position: {x: 773.12, y: -71.68}
   - Id:
+      Type: 1
+      MapId:
+        Theme: 4
+        Type: 1
+      Id: 12
+    Position: {x: 778.24, y: -40.96}
+  - Id:
       Type: 2
       MapId:
         Theme: 0
@@ -3538,13 +3545,6 @@ MonoBehaviour:
         Type: 1
       Id: 12
     Position: {x: 778.24, y: -56.32}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 4
-        Type: 1
-      Id: 12
-    Position: {x: 778.24, y: -40.96}
   - Id:
       Type: 1
       MapId:
@@ -3572,49 +3572,7 @@ MonoBehaviour:
         Theme: 0
         Type: 0
       Id: 3
-    Position: {x: 788.48, y: -35.84}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 788.48, y: 0}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 788.48, y: -25.599998}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 788.48, y: -5.12}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 788.48, y: -20.48}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 788.48, y: -10.24}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 788.48, y: -15.36}
+    Position: {x: 788.48, y: -30.72}
   - Id:
       Type: 2
       MapId:
@@ -3628,7 +3586,49 @@ MonoBehaviour:
         Theme: 0
         Type: 0
       Id: 3
-    Position: {x: 788.48, y: -30.72}
+    Position: {x: 788.48, y: -10.24}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 788.48, y: -20.48}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 788.48, y: -15.36}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 788.48, y: -25.599998}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 788.48, y: 0}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 788.48, y: -35.84}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 788.48, y: -5.12}
   - Id:
       Type: 2
       MapId:
@@ -3672,19 +3672,12 @@ MonoBehaviour:
       Id: 1
     Position: {x: 814.07996, y: -71.68}
   - Id:
-      Type: 3
+      Type: 2
       MapId:
         Theme: 0
         Type: 0
-      Id: 3
-    Position: {x: 819.19995, y: -51.199997}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 819.19995, y: -46.079998}
+      Id: 1
+    Position: {x: 819.19995, y: -71.68}
   - Id:
       Type: 1
       MapId:
@@ -3693,12 +3686,19 @@ MonoBehaviour:
       Id: 16
     Position: {x: 819.19995, y: -56.32}
   - Id:
-      Type: 2
+      Type: 3
       MapId:
         Theme: 0
         Type: 0
-      Id: 1
-    Position: {x: 819.19995, y: -71.68}
+      Id: 3
+    Position: {x: 819.19995, y: -46.079998}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 819.19995, y: -51.199997}
   - Id:
       Type: 2
       MapId:
@@ -3749,12 +3749,19 @@ MonoBehaviour:
       Id: 1
     Position: {x: 834.56, y: -76.799995}
   - Id:
+      Type: 2
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 839.68, y: -81.92}
+  - Id:
       Type: 3
       MapId:
         Theme: 0
         Type: 0
       Id: 3
-    Position: {x: 839.68, y: -51.199997}
+    Position: {x: 839.68, y: -46.079998}
   - Id:
       Type: 1
       MapId:
@@ -3768,14 +3775,7 @@ MonoBehaviour:
         Theme: 0
         Type: 0
       Id: 3
-    Position: {x: 839.68, y: -46.079998}
-  - Id:
-      Type: 2
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 839.68, y: -81.92}
+    Position: {x: 839.68, y: -51.199997}
   - Id:
       Type: 1
       MapId:
@@ -3833,26 +3833,12 @@ MonoBehaviour:
       Id: 18
     Position: {x: 855.04, y: -56.32}
   - Id:
-      Type: 1
-      MapId:
-        Theme: 4
-        Type: 1
-      Id: 19
-    Position: {x: 860.16, y: -56.32}
-  - Id:
       Type: 3
       MapId:
         Theme: 0
         Type: 0
       Id: 3
-    Position: {x: 860.16, y: -46.079998}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 860.16, y: -35.84}
+    Position: {x: 860.16, y: -51.199997}
   - Id:
       Type: 2
       MapId:
@@ -3873,7 +3859,21 @@ MonoBehaviour:
         Theme: 0
         Type: 0
       Id: 3
-    Position: {x: 860.16, y: -51.199997}
+    Position: {x: 860.16, y: -46.079998}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 860.16, y: -35.84}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 4
+        Type: 1
+      Id: 19
+    Position: {x: 860.16, y: -56.32}
   - Id:
       Type: 2
       MapId:
@@ -3931,19 +3931,19 @@ MonoBehaviour:
       Id: 18
     Position: {x: 880.63995, y: -92.159996}
   - Id:
-      Type: 1
-      MapId:
-        Theme: 4
-        Type: 1
-      Id: 19
-    Position: {x: 885.76, y: -92.159996}
-  - Id:
       Type: 2
       MapId:
         Theme: 0
         Type: 0
       Id: 1
     Position: {x: 885.76, y: -163.84}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 4
+        Type: 1
+      Id: 19
+    Position: {x: 885.76, y: -92.159996}
   - Id:
       Type: 1
       MapId:
@@ -4015,19 +4015,19 @@ MonoBehaviour:
       Id: 1
     Position: {x: 911.36, y: -163.84}
   - Id:
-      Type: 2
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 916.48, y: -163.84}
-  - Id:
       Type: 1
       MapId:
         Theme: 4
         Type: 1
       Id: 15
     Position: {x: 916.48, y: -153.59999}
+  - Id:
+      Type: 2
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 916.48, y: -163.84}
   - Id:
       Type: 1
       MapId:
@@ -4104,14 +4104,14 @@ MonoBehaviour:
         Theme: 0
         Type: 0
       Id: 1
-    Position: {x: 957.44, y: -158.72}
+    Position: {x: 957.44, y: -163.84}
   - Id:
       Type: 2
       MapId:
         Theme: 0
         Type: 0
       Id: 1
-    Position: {x: 957.44, y: -163.84}
+    Position: {x: 957.44, y: -158.72}
   - Id:
       Type: 2
       MapId:
@@ -4169,13 +4169,6 @@ MonoBehaviour:
       Id: 1
     Position: {x: 983.04, y: -158.72}
   - Id:
-      Type: 2
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 988.16, y: -158.72}
-  - Id:
       Type: 1
       MapId:
         Theme: 4
@@ -4188,7 +4181,7 @@ MonoBehaviour:
         Theme: 0
         Type: 0
       Id: 1
-    Position: {x: 993.27997, y: -158.72}
+    Position: {x: 988.16, y: -158.72}
   - Id:
       Type: 1
       MapId:
@@ -4196,6 +4189,13 @@ MonoBehaviour:
         Type: 1
       Id: 18
     Position: {x: 993.27997, y: -143.36}
+  - Id:
+      Type: 2
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 993.27997, y: -158.72}
   - Id:
       Type: 2
       MapId:
@@ -4267,19 +4267,19 @@ MonoBehaviour:
       Id: 1
     Position: {x: 1024, y: -158.72}
   - Id:
-      Type: 1
-      MapId:
-        Theme: 4
-        Type: 1
-      Id: 1
-    Position: {x: 1029.12, y: -112.64}
-  - Id:
       Type: 2
       MapId:
         Theme: 0
         Type: 0
       Id: 1
     Position: {x: 1029.12, y: -158.72}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 4
+        Type: 1
+      Id: 1
+    Position: {x: 1029.12, y: -112.64}
   - Id:
       Type: 2
       MapId:
@@ -4344,19 +4344,19 @@ MonoBehaviour:
       Id: 1
     Position: {x: 1059.84, y: -153.59999}
   - Id:
-      Type: 2
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 1064.96, y: -153.59999}
-  - Id:
       Type: 1
       MapId:
         Theme: 4
         Type: 1
       Id: 15
     Position: {x: 1064.96, y: -112.64}
+  - Id:
+      Type: 2
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 1064.96, y: -153.59999}
   - Id:
       Type: 1
       MapId:
@@ -4400,6 +4400,13 @@ MonoBehaviour:
       Id: 1
     Position: {x: 1080.32, y: -153.59999}
   - Id:
+      Type: 2
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 1085.44, y: -153.59999}
+  - Id:
       Type: 3
       MapId:
         Theme: 0
@@ -4414,12 +4421,12 @@ MonoBehaviour:
       Id: 19
     Position: {x: 1085.44, y: -112.64}
   - Id:
-      Type: 2
+      Type: 1
       MapId:
-        Theme: 0
-        Type: 0
+        Theme: 4
+        Type: 1
       Id: 1
-    Position: {x: 1085.44, y: -153.59999}
+    Position: {x: 1090.5599, y: -148.48}
   - Id:
       Type: 2
       MapId:
@@ -4427,13 +4434,6 @@ MonoBehaviour:
         Type: 0
       Id: 1
     Position: {x: 1090.5599, y: -153.59999}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 4
-        Type: 1
-      Id: 1
-    Position: {x: 1090.5599, y: -148.48}
   - Id:
       Type: 1
       MapId:
@@ -4463,6 +4463,13 @@ MonoBehaviour:
       Id: 1
     Position: {x: 1100.7999, y: -153.59999}
   - Id:
+      Type: 1
+      MapId:
+        Theme: 4
+        Type: 1
+      Id: 15
+    Position: {x: 1105.9199, y: -148.48}
+  - Id:
       Type: 3
       MapId:
         Theme: 0
@@ -4481,20 +4488,6 @@ MonoBehaviour:
       MapId:
         Theme: 4
         Type: 1
-      Id: 15
-    Position: {x: 1105.9199, y: -148.48}
-  - Id:
-      Type: 2
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 1111.0399, y: -153.59999}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 4
-        Type: 1
       Id: 16
     Position: {x: 1111.0399, y: -148.48}
   - Id:
@@ -4504,6 +4497,20 @@ MonoBehaviour:
         Type: 0
       Id: 3
     Position: {x: 1111.0399, y: -133.12}
+  - Id:
+      Type: 2
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 1111.0399, y: -153.59999}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 1116.16, y: -133.12}
   - Id:
       Type: 1
       MapId:
@@ -4518,13 +4525,6 @@ MonoBehaviour:
         Type: 0
       Id: 1
     Position: {x: 1116.16, y: -153.59999}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 1116.16, y: -133.12}
   - Id:
       Type: 3
       MapId:
@@ -4573,21 +4573,42 @@ MonoBehaviour:
         Theme: 0
         Type: 0
       Id: 3
-    Position: {x: 1131.52, y: -92.159996}
+    Position: {x: 1131.52, y: -97.28}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 4
+        Type: 1
+      Id: 15
+    Position: {x: 1131.52, y: -148.48}
   - Id:
       Type: 3
       MapId:
         Theme: 0
         Type: 0
       Id: 3
-    Position: {x: 1131.52, y: -87.04}
+    Position: {x: 1131.52, y: -117.759995}
   - Id:
-      Type: 2
+      Type: 3
       MapId:
         Theme: 0
         Type: 0
-      Id: 1
-    Position: {x: 1131.52, y: -153.59999}
+      Id: 3
+    Position: {x: 1131.52, y: -133.12}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 1131.52, y: -122.88}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 1131.52, y: -107.52}
   - Id:
       Type: 3
       MapId:
@@ -4603,54 +4624,33 @@ MonoBehaviour:
       Id: 3
     Position: {x: 1131.52, y: -112.64}
   - Id:
+      Type: 2
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 1131.52, y: -153.59999}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 1131.52, y: -87.04}
+  - Id:
+      Type: 3
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 3
+    Position: {x: 1131.52, y: -92.159996}
+  - Id:
       Type: 3
       MapId:
         Theme: 0
         Type: 0
       Id: 3
     Position: {x: 1131.52, y: -128}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 1131.52, y: -107.52}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 1131.52, y: -122.88}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 1131.52, y: -133.12}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 1131.52, y: -117.759995}
-  - Id:
-      Type: 1
-      MapId:
-        Theme: 4
-        Type: 1
-      Id: 15
-    Position: {x: 1131.52, y: -148.48}
-  - Id:
-      Type: 3
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 3
-    Position: {x: 1131.52, y: -97.28}
   - Id:
       Type: 1
       MapId:
@@ -4666,19 +4666,19 @@ MonoBehaviour:
       Id: 1
     Position: {x: 1136.64, y: -153.59999}
   - Id:
-      Type: 1
-      MapId:
-        Theme: 4
-        Type: 1
-      Id: 17
-    Position: {x: 1141.76, y: -148.48}
-  - Id:
       Type: 2
       MapId:
         Theme: 0
         Type: 0
       Id: 1
     Position: {x: 1141.76, y: -153.59999}
+  - Id:
+      Type: 1
+      MapId:
+        Theme: 4
+        Type: 1
+      Id: 17
+    Position: {x: 1141.76, y: -148.48}
   - Id:
       Type: 1
       MapId:
@@ -4743,19 +4743,19 @@ MonoBehaviour:
       Id: 1
     Position: {x: 1157.12, y: -153.59999}
   - Id:
-      Type: 2
-      MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 1162.24, y: -153.59999}
-  - Id:
       Type: 1
       MapId:
         Theme: 4
         Type: 1
       Id: 17
     Position: {x: 1162.24, y: -148.48}
+  - Id:
+      Type: 2
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 1162.24, y: -153.59999}
   - Id:
       Type: 2
       MapId:
@@ -4813,13 +4813,6 @@ MonoBehaviour:
       Id: 15
     Position: {x: 1177.6, y: -148.48}
   - Id:
-      Type: 1
-      MapId:
-        Theme: 4
-        Type: 1
-      Id: 16
-    Position: {x: 1182.72, y: -148.48}
-  - Id:
       Type: 2
       MapId:
         Theme: 0
@@ -4834,12 +4827,12 @@ MonoBehaviour:
       Id: 3
     Position: {x: 1182.72, y: -143.36}
   - Id:
-      Type: 2
+      Type: 1
       MapId:
-        Theme: 0
-        Type: 0
-      Id: 1
-    Position: {x: 1187.84, y: -153.59999}
+        Theme: 4
+        Type: 1
+      Id: 16
+    Position: {x: 1182.72, y: -148.48}
   - Id:
       Type: 1
       MapId:
@@ -4847,6 +4840,13 @@ MonoBehaviour:
         Type: 1
       Id: 17
     Position: {x: 1187.84, y: -148.48}
+  - Id:
+      Type: 2
+      MapId:
+        Theme: 0
+        Type: 0
+      Id: 1
+    Position: {x: 1187.84, y: -153.59999}
   - Id:
       Type: 1
       MapId:
