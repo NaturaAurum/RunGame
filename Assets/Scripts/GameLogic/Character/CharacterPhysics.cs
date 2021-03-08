@@ -34,7 +34,7 @@ namespace Stella.GameLogic.Character
             if (rig2D == null) // getcomponent로 못얻어오면 없는거니까 추가
                 rig2D = gameObject.AddComponent<Rigidbody2D>();
             
-            groundCheckLayerMask = 1 << LayerMask.NameToLayer("Obstacle");
+            groundCheckLayerMask = 1 << LayerMask.NameToLayer("Block");
         }
 
         private void OnDestroy()
