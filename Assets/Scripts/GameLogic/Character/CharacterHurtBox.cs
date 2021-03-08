@@ -15,12 +15,14 @@ namespace Stella.GameLogic.Character
         private CapsuleCollider2D collider = null;
 
         private int checkLayer = 0;
+        private int waterLayerMask = 0;
 
         private void Awake()
         {
             character = GetComponent<CharacterBase>();
             physics = GetComponent<CharacterPhysics>();
             checkLayer = LayerMask.NameToLayer("Obstacle");
+            waterLayerMask = 1 << LayerMask.NameToLayer("Water");
         }
 
         private void Start()

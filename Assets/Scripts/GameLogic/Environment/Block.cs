@@ -25,6 +25,9 @@ namespace Stella.GameLogic.Environment
             if (polygonCollider2D == null)
                 polygonCollider2D = GetComponent<PolygonCollider2D>();
 
+            if (polygonCollider2D == null)
+                return;
+
             var path = new List<Vector2>();
             polygonCollider2D.pathCount = sprite.GetPhysicsShapeCount();
             for (var i = 0; i < polygonCollider2D.pathCount; i++)

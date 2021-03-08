@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 5358319974902942462}
   - component: {fileID: 5358319974902942461}
   - component: {fileID: 464011109}
-  - component: {fileID: 5232921327079414601}
   - component: {fileID: 5450522944586150391}
+  - component: {fileID: 8271732815294496992}
   m_Layer: 10
   m_Name: Water
   m_TagString: Untagged
@@ -103,62 +103,7 @@ MonoBehaviour:
       Type: 0
     Id: 1
   spriteRenderer: {fileID: 5358319974902942461}
-  polygonCollider2D: {fileID: 5232921327079414601}
---- !u!60 &5232921327079414601
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5358319974902942460}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 6b1a887f74af49344918944e8f299122, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.12, y: 5.12}
-    newSize: {x: 5.12, y: 5.12}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 2.3, y: 2.51}
-      - {x: 2.18, y: 2.53}
-      - {x: 2.05, y: 2.55}
-      - {x: 1.9499999, y: 2.56}
-      - {x: 1.16, y: 2.56}
-      - {x: 1.0799999, y: 2.55}
-      - {x: 0.79999995, y: 2.5}
-      - {x: 0.71, y: 2.48}
-      - {x: 0.64, y: 2.46}
-      - {x: 0.42, y: 2.3999999}
-      - {x: 0.14, y: 2.32}
-      - {x: -0.17, y: 2.24}
-      - {x: -0.45, y: 2.19}
-      - {x: -0.53, y: 2.18}
-      - {x: -0.63, y: 2.1699998}
-      - {x: -0.79999995, y: 2.1599998}
-      - {x: -1.02, y: 2.1499999}
-      - {x: -1.03, y: 2.1599998}
-      - {x: -1.1999999, y: 2.1699998}
-      - {x: -1.31, y: 2.18}
-      - {x: -1.54, y: 2.21}
-      - {x: -1.7099999, y: 2.24}
-      - {x: -2.1, y: 2.33}
-      - {x: -2.3799999, y: 2.4099998}
-      - {x: -2.5, y: 2.44}
-      - {x: -2.56, y: 2.45}
-      - {x: -2.56, y: -2.56}
-      - {x: 2.56, y: -2.56}
-      - {x: 2.56, y: 2.45}
-      - {x: 2.54, y: 2.46}
+  polygonCollider2D: {fileID: 0}
 --- !u!95 &5450522944586150391
 Animator:
   serializedVersion: 3
@@ -178,3 +123,29 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!61 &8271732815294496992
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5358319974902942460}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.12, y: 5.12}
+    newSize: {x: 5.12, y: 5.12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.12, y: 5.12}
+  m_EdgeRadius: 0

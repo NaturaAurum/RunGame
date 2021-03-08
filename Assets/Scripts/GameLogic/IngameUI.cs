@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Timers;
 using Sirenix.OdinInspector;
 using Stella.Data.Enums;
 using Stella.GameLogic.Manager;
@@ -60,6 +59,8 @@ namespace Stella.GameLogic
                 var instance = Instantiate(hpOrigin, hpOrigin.transform.parent);
                 spawnedHp.Add(instance);
             }
+
+            hpOrigin.SetActive(false);
             
             player.HP.Subscribe(hp =>
             {
