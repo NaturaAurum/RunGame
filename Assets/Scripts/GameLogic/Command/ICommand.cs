@@ -27,4 +27,9 @@
     {
         // TODO : 필요한 멤버 있으면 구현하기   
     }
+
+    public class CharacterHitCommand : ICommand
+    {
+        
+    }
 }

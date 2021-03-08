@@ -1,7 +1,6 @@
 ﻿using Sirenix.OdinInspector.Editor;
 using Stella.Data;
 using Stella.Data.Enums;
-using Stella.GameLogic.Environment.Floor;
 using UnityEngine;
 using UnityEditor;
 using UnityEngine.Tilemaps;

@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using UniRx;
 using UnityEngine;
 
 namespace Stella.Data
@@ -30,6 +31,14 @@ namespace Stella.Data
         public void Clear()
         {
             blockInfoList.Clear();
+        }
+    }
+
+    public class MapDataRxProp : ReactiveProperty<MapData>
+    {
+        public MapDataRxProp() : base(null)
+        {
+            
         }
     }
 }

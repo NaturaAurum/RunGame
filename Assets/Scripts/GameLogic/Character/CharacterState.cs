@@ -9,18 +9,19 @@ namespace Stella.GameLogic.Character
         Idle,
         Air,
         Hit,
+        Knockback,
         Run,
         Jump01,
         Jump02,
     }
-    
+
     /// <summary>
     /// 캐릭터 관련된 State 들이 상속받는 클래스
     /// </summary>
     public abstract class CharacterState : IState<CharacterState>
     {
         public abstract CharacterStateType Type { get; }
-        
+
         protected CharacterBase characterBase { get; }
 
         protected CharacterState nextState = null;
@@ -33,7 +34,19 @@ namespace Stella.GameLogic.Character
             this.characterBase = characterBase;
         }
 
-        public abstract void Listen(ICommand command);
+        public void Listen(ICommand command)
+        {
+            // 여러가지 캐릭터 공통 command 처리
+
+            if (command is CharacterHitCommand)
+            {
+                nextState = new HitState(characterBase);
+            }
+
+            DoCommand(command);
+        }
+
+        public abstract void DoCommand(ICommand command);
 
         public virtual CharacterState NextState() => nextState;
 
@@ -46,8 +59,21 @@ namespace Stella.GameLogic.Character
         }
 
         protected bool IsJumpCommand(ICommand command) => command is JumpCommand && characterBase.CanJump;
-        
-        public virtual void UpdatePhysics(ref Vector2 velocity) {}
+
+        public virtual void UpdatePhysics(ref Vector2 velocity)
+        {
+        }
+
+        protected void UpdateKnockback(ref Vector2 velocity)
+        {
+            if (!characterBase.IsGround)
+            {
+                float y = velocity.y;
+                var gravity = characterBase.Gravity;
+                y -= gravity * Time.fixedDeltaTime;
+                velocity.y = y;
+            }
+        }
 
         protected void DefaultUpdatePhysics(ref Vector2 velocity, Vector2 direction, float targetX, float accX)
         {
@@ -81,7 +107,12 @@ namespace Stella.GameLogic.Character
             }
         }
 
-        public virtual void OnEnterPhysics(ref Vector2 velocity) {}
-        public virtual void OnExitPhysics(ref Vector2 velocity) {}
+        public virtual void OnEnterPhysics(ref Vector2 velocity)
+        {
+        }
+
+        public virtual void OnExitPhysics(ref Vector2 velocity)
+        {
+        }
     }
 }

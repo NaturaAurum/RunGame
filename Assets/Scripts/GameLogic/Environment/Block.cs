@@ -14,7 +14,7 @@ namespace Stella.GameLogic.Environment
         [Required, SerializeField] private PolygonCollider2D polygonCollider2D = null;
 
         [Button]
-        public void SetSprite()
+        public virtual void SetSprite()
         {
             if (spriteRenderer == null)
                 spriteRenderer = GetComponent<SpriteRenderer>();

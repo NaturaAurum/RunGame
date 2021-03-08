@@ -11,7 +11,7 @@ namespace Stella.GameLogic.Character
             
         }
 
-        public override void Listen(ICommand command)
+        public override void DoCommand(ICommand command)
         {
             if (command is StartCommand)
             {

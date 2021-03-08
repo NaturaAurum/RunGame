@@ -36,7 +36,7 @@ namespace Stella.GameLogic.Environment
 
         private void Generate()
         {
-            
+            Instantiate(spikePrefab, transform.position + Vector3.left * 4f, Quaternion.identity);
         }
 
         private void OnGameStateChanged(GameState state)

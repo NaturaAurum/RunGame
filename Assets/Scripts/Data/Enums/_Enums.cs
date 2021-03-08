@@ -77,6 +77,7 @@ namespace Stella.Data.Enums
 
     public enum GameState
     {
+        Loading,
         Ready,
         Play,
         Over,

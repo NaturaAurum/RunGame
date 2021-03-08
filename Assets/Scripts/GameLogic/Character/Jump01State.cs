@@ -10,10 +10,8 @@ namespace Stella.GameLogic.Character
         {
         }
 
-        protected override void DoCommand(ICommand command)
+        protected override void DoCommandInternal(ICommand command)
         {
-            base.DoCommand(command);
-
             if (IsJumpCommand(command))
             {
                 nextState = new Jump02State(characterBase);

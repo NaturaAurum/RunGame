@@ -9,6 +9,8 @@ namespace Stella.GameLogic.Character
     /// </summary>
     public class CharacterPhysics : MonoBehaviour
     {
+        public Vector3 Velocity => rig2D.velocity;
+        
         [SerializeField] private float groundCheckDistance = 0.02f;
         
         private CharacterBase characterBase = null;

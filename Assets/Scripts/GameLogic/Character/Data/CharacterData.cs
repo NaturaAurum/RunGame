@@ -27,5 +27,10 @@ namespace Stella.GameLogic.Character.Data
         public Vector3 LocalScale = Vector3.one;
         
         public int HpCount = 3;
+
+        public int HitstopFrame = 60;
+        public Vector3 HitKnockbackDirection = new Vector3(-1, 1, 0);
+        public float HitKnockbackPower = 30f;
+        public Vector3 HitKnockback => HitKnockbackDirection * HitKnockbackPower;
     }
 }

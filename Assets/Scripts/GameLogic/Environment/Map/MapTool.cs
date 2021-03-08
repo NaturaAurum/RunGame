@@ -5,6 +5,7 @@ using System.Linq;
 using Sirenix.OdinInspector;
 using Stella.Data;
 using Stella.Data.Enums;
+using Stella.GameLogic.Manager;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 #if UNITY_EDITOR
@@ -24,7 +25,20 @@ namespace Stella.GameLogic.Environment.Map
 
         public Tilemap TargetTileMap;
 
+        public GameObject GridObject = null;
+
         [ReadOnly] public List<BlockTiles> TileList = new List<BlockTiles>();
+
+
+        private void Awake()
+        {
+            GridObject.SetActive(false);
+        }
+
+        private void Start()
+        {
+            GameManager.Instance.SetMapData(Data);
+        }
 
         [Button]
         private void LoadBlockTilesData()

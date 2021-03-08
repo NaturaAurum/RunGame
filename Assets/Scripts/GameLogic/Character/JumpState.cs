@@ -9,17 +9,18 @@ namespace Stella.GameLogic.Character
         {
         }
 
-        public override void Listen(ICommand command)
+        public override void DoCommand(ICommand command)
         {
             if (command is ToGroundCommand)
             {
                 nextState = new RunState(characterBase);
             }
-            
-            DoCommand(command);
+
+            DoCommandInternal(command);
+
         }
-        
-        protected virtual void DoCommand(ICommand command) {}
+
+        protected virtual void DoCommandInternal(ICommand command){}
 
         public override void UpdatePhysics(ref Vector2 velocity)
         {
