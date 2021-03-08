@@ -10,6 +10,11 @@ using UnityEngine;
 
 namespace Stella.GameLogic.Manager
 {
+    public static class MapDeliver
+    {
+        public static int MapID;
+    }
+    
     [DefaultExecutionOrder(-1000)]
     public class GameManager : MonoBehaviour, ICommandListener
     {
@@ -17,6 +22,7 @@ namespace Stella.GameLogic.Manager
 
         public IReadOnlyReactiveProperty<GameState> CurrentState => currentState;
         public IReadOnlyReactiveProperty<MapData> CurrentMapData => currentMapData;
+        public IReadOnlyReactiveProperty<float> PlayTime => playTime;
 
         public Vector2 StartPos
         {
@@ -41,10 +47,31 @@ namespace Stella.GameLogic.Manager
             }
         }
 
+        public Vector3 EndPos
+        {
+            get
+            {
+                if (currentMapData.Value == null)
+                    return Vector2.zero;
+
+                var mapData = currentMapData.Value;
+                var blockData = mapData.BlockInfoList;
+                if (blockData.Count == 0)
+                {
+                    return Vector2.zero;
+                }
+                return blockData[blockData.Count - 1].Position + Vector2.up * 2.56f;
+            }
+        }
+
 
         private GameStateRxProp currentState = new GameStateRxProp(GameState.Ready);
 
         private MapDataRxProp currentMapData = new MapDataRxProp();
+
+        private FloatReactiveProperty playTime = new FloatReactiveProperty();
+
+        public CharacterBase CurrentPlayer => currentPlayer;
 
         private CharacterBase currentPlayer = null;
 
@@ -57,8 +84,15 @@ namespace Stella.GameLogic.Manager
 
             CommandDispatcher.AddListener(this);
 
+            
+
             currentMapData.Subscribe(MapDataSetUpDone).AddTo(this);
             currentState.Subscribe(OnGameStateChanged).AddTo(this);
+        }
+
+        private void Start()
+        {
+            SetMapData(MapDataContainer.GetMapData(MapDeliver.MapID));
         }
 
         private void MapDataSetUpDone(MapData mapData)
@@ -70,6 +104,26 @@ namespace Stella.GameLogic.Manager
                 playerInstance.transform.position = StartPos;
                 currentPlayer = playerInstance.GetComponent<CharacterBase>();
                 CameraController.Instance.SetCharacter(currentPlayer);
+            }
+        }
+
+        private void Update()
+        {
+            if (currentState.Value == GameState.Play)
+            {
+                playTime.Value += Time.deltaTime;
+            }
+            
+            EndCheck();
+        }
+
+        private void EndCheck()
+        {
+            var playerPos = currentPlayer.transform.position;
+            var dir = EndPos - playerPos;
+            if (dir.sqrMagnitude <= 0.01f)
+            {
+                SetState(GameState.Clear);
             }
         }
 
@@ -98,7 +152,10 @@ namespace Stella.GameLogic.Manager
 
         public void Listen(ICommand command)
         {
-            
+            if (command is GameOverCommand)
+            {
+                SetState(GameState.Over);
+            }
         }
 
         public void SetMapData(MapData mapData)

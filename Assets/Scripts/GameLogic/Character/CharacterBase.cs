@@ -1,6 +1,7 @@
 using System;
 using Stella.GameLogic.Character.Data;
 using Stella.GameLogic.Command;
+using UniRx;
 using UnityEngine;
 
 namespace Stella.GameLogic.Character
@@ -37,6 +38,9 @@ namespace Stella.GameLogic.Character
         
         public bool CanPlay { get; private set; }
 
+        public IReadOnlyReactiveProperty<int> HP => hp;
+        private IntReactiveProperty hp = new IntReactiveProperty();
+
         private void Awake()
         {
             CommandDispatcher.AddListener(this);
@@ -44,6 +48,15 @@ namespace Stella.GameLogic.Character
             OnExitState += InternalOnExitState;
 
             RemainJumpCount = CharacterData.MaxJumpCount;
+            hp.Value = CharacterData.HpCount;
+
+            hp.Subscribe(hp =>
+            {
+                if (hp == 0)
+                {
+                    CommandDispatcher.Dispatch(new GameOverCommand());
+                }
+            }).AddTo(this);
         }
 
         private void OnDestroy()

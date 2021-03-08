@@ -81,6 +81,7 @@ namespace Stella.Data.Enums
         Ready,
         Play,
         Over,
+        Clear,
     }
 
     public class GameStateRxProp : ReactiveProperty<GameState>
