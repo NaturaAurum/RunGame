@@ -66,8 +66,12 @@ namespace Stella.GameLogic.Character
         
         private void FixedUpdate()
         {
-            if (characterBase.IsDead || !characterBase.CanPlay) return;
-            
+            if (characterBase.IsDead || !characterBase.CanPlay)
+            {
+                rig2D.velocity = Vector2.zero;
+                return;
+            }
+
             GroundCheck();
             var velocity = GetBeforeVelocity();
             currentState?.UpdatePhysics(ref velocity);
