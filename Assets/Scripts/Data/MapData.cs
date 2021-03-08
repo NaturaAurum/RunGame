@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Sirenix.OdinInspector;
 using UniRx;
 using UnityEngine;
 
@@ -31,6 +32,12 @@ namespace Stella.Data
         public void Clear()
         {
             blockInfoList.Clear();
+        }
+
+        [Button]
+        private void Sort()
+        {
+            blockInfoList.Sort((v1, v2) => (int) (v1.Position.x - v2.Position.x));
         }
     }
 
