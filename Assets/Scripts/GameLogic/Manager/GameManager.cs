@@ -67,6 +67,7 @@ namespace Stella.GameLogic.Manager
             {
                 var playerPrefab = Resources.Load<GameObject>("Prefabs/Player");
                 var playerInstance = Instantiate(playerPrefab);
+                playerInstance.transform.position = StartPos;
                 currentPlayer = playerInstance.GetComponent<CharacterBase>();
                 CameraController.Instance.SetCharacter(currentPlayer);
             }
