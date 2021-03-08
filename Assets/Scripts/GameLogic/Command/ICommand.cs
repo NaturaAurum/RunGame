@@ -28,6 +28,11 @@
         
     }
 
+    public class GameOverCommand : ICommand
+    {
+        
+    }
+
     public class JumpCommand : ICommand
     {
         // TODO : 필요한 멤버 있으면 구현하기   

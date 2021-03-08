@@ -91,6 +91,11 @@ namespace Stella.GameLogic.Character
                 CanPlay = true;
             else if (command is InitCommand)
                 CanPlay = false;
+
+            if (command is GameOverCommand)
+            {
+                IsDead = true;
+            }
         }
     }
 }

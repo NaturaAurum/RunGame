@@ -21,6 +21,7 @@ namespace Stella.GameLogic.Character
         private RaycastHit2D[] groundCastResult = new RaycastHit2D[2];
 
         private int groundCheckLayerMask;
+        private int waterMask = 0;
         private bool isGround = true;
 
         private void Awake()
@@ -35,6 +36,7 @@ namespace Stella.GameLogic.Character
                 rig2D = gameObject.AddComponent<Rigidbody2D>();
             
             groundCheckLayerMask = 1 << LayerMask.NameToLayer("Block");
+            waterMask = 1 << LayerMask.NameToLayer("Water");
         }
 
         private void OnDestroy()
@@ -73,6 +75,7 @@ namespace Stella.GameLogic.Character
             }
 
             GroundCheck();
+            CheckWater();
             var velocity = GetBeforeVelocity();
             currentState?.UpdatePhysics(ref velocity);
             ApplyAfterVelocity(ref velocity);
@@ -90,6 +93,18 @@ namespace Stella.GameLogic.Character
 
                 CommandDispatcher.Dispatch(isGround ? (ICommand) new ToGroundCommand() : new ToAirCommand());
             }   
+        }
+
+        private void CheckWater()
+        {
+            var isWater = Physics2D.RaycastNonAlloc(transform.position, Vector3.down, groundCastResult,
+                groundCheckDistance,
+                waterMask) > 0;
+
+            if (isWater)
+            {
+                CommandDispatcher.Dispatch(new GameOverCommand());
+            }
         }
     }
 }

@@ -33,7 +33,7 @@ namespace Stella.GameLogic.Character
 
         private void FixedUpdate()
         {
-            if (collider == null || character.Invincible)
+            if (collider == null || character.Invincible || character.IsDead)
                 return;
             var velocity = physics.Velocity;
             var next = velocity * Time.fixedDeltaTime;

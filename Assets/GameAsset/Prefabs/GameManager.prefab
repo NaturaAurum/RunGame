@@ -46,8 +46,11 @@ MonoBehaviour:
   blockParent: {fileID: 8126145119850220371}
   blockPrefab: {fileID: 2941157269608307222, guid: a10ea3e685d20664381f00f810c10b36,
     type: 3}
+  waterPrefab: {fileID: 5358319974902942460, guid: 8d22078773e7f424591e64c931c66599,
+    type: 3}
   obstaclePrefab: {fileID: 5358319974902942460, guid: f07ae77202bbdb440a7fa0d9fe201ecd,
     type: 3}
+  generateCountPerFrame: 10
 --- !u!1 &8126145120875637881
 GameObject:
   m_ObjectHideFlags: 0

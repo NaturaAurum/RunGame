@@ -14,6 +14,7 @@ namespace Stella.GameLogic.Environment
     {
         [SerializeField, Required] private Transform blockParent = null;
         [SerializeField, Required] private GameObject blockPrefab = null;
+        [SerializeField, Required] private GameObject waterPrefab = null;
         [SerializeField, Required] private GameObject obstaclePrefab = null;
 
         [SerializeField] private int generateCountPerFrame = 10;
@@ -35,6 +36,21 @@ namespace Stella.GameLogic.Environment
             StartCoroutine(GenerateBlock());
         }
 
+        private GameObject GetPrefab(ItemType itemType)
+        {
+            switch (itemType)
+            {
+                case ItemType.Obstacles:
+                    return obstaclePrefab;
+                case ItemType.Floor:
+                    return blockPrefab;
+                case ItemType.Water:
+                    return waterPrefab;
+            }
+
+            return null;
+        }
+
         private IEnumerator GenerateBlock()
         {
             var blocks = currentMapData.BlockInfoList;
@@ -45,7 +61,7 @@ namespace Stella.GameLogic.Environment
                 var itemId = blockInfo.Id;
                 var itemType = itemId.Type;
                 var pos = blockInfo.Position;
-                var target = (itemType == ItemType.Obstacles) ? obstaclePrefab : blockPrefab;
+                var target = GetPrefab(itemType);
                 var instance = Instantiate(target, blockParent);
                 instance.transform.position = pos;
                 var blockComp = instance.GetComponent<Block>();
