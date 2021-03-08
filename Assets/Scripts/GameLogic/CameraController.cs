@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using Cinemachine;
 using Sirenix.OdinInspector;
 using Stella.GameLogic.Character;
@@ -49,6 +50,29 @@ namespace Stella.GameLogic
             target.weight = 3;
             targetList.Add(target);
             targetGroup.m_Targets = targetList.ToArray();
+        }
+
+        public void Shake(float power)
+        {
+            if (shakeRoutine != null)
+            {
+                StopCoroutine(shakeRoutine);
+                shakeRoutine = null;
+            }
+
+            shakeRoutine = StartCoroutine(_Shake(power));
+        }
+
+        private Coroutine shakeRoutine = null;
+        private IEnumerator _Shake(float power)
+        {
+            noiseModule.m_AmplitudeGain = power;
+            while (noiseModule.m_AmplitudeGain > float.Epsilon)
+            {
+                yield return null;
+                noiseModule.m_AmplitudeGain -= noiseModule.m_AmplitudeGain * Time.deltaTime * 5f;
+            }
+            noiseModule.m_AmplitudeGain = 0f;
         }
         
         public void SetCameraScreenXY(float screenX, float screenY)

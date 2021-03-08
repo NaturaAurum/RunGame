@@ -32,5 +32,7 @@ namespace Stella.GameLogic.Character.Data
         public Vector3 HitKnockbackDirection = new Vector3(-1, 1, 0);
         public float HitKnockbackPower = 30f;
         public Vector3 HitKnockback => HitKnockbackDirection * HitKnockbackPower;
+
+        public float ShakePower = 15f;
     }
 }

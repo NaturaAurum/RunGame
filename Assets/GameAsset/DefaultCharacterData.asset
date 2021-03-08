@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DefaultCharacterData
   m_EditorClassIdentifier: 
   AccelerationOnGround: 50
-  MaxSpeedOnGround: 5
+  MaxSpeedOnGround: 10
   AccelerationOnAir: 50
   MaxSpeedOnAir: 5
   GravityOnAir: 50
@@ -27,3 +27,7 @@ MonoBehaviour:
   LocalRotation: {x: 0, y: 0, z: 0}
   LocalScale: {x: 1, y: 1, z: 1}
   HpCount: 3
+  HitstopFrame: 60
+  HitKnockbackDirection: {x: -1, y: 2, z: 0}
+  HitKnockbackPower: 15
+  ShakePower: 15

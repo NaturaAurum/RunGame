@@ -7,15 +7,11 @@ namespace Stella.GameLogic.Character
     public class HitState : CharacterState
     {
         public override CharacterStateType Type => CharacterStateType.Hit;
-        
-        private readonly int hitStopFrame = 0;
-        private int frame = 0;
 
         private CharacterBase characterBase = null;
         
         public HitState(CharacterBase characterBase) : base(characterBase)
         {
-            frame = 0;
             this.characterBase = characterBase;
             hitstopFrame = characterBase.CharacterData.HitstopFrame;
         }
@@ -28,16 +24,16 @@ namespace Stella.GameLogic.Character
 
         public override void Update()
         {
-            frame++;
-            if (frame >= hitStopFrame)
+            base.Update();
+            if (hitstopFrame <= 0)
             {
-                nextState = new RunState(characterBase);
+                nextState = new KnockbackState(characterBase);
             }
         }
 
-        public override void OnEnterPhysics(ref Vector2 velocity)
+        public override void UpdatePhysics(ref Vector2 velocity)
         {
-            // 넉벡
+            velocity = Vector2.zero;
         }
     }
 }

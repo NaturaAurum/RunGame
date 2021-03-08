@@ -38,6 +38,9 @@ namespace Stella.GameLogic.Character
         {
             // 여러가지 캐릭터 공통 command 처리
 
+            if (hitstopNow) // hitstop 일때는 막는다
+                return;
+
             if (command is CharacterHitCommand)
             {
                 nextState = new HitState(characterBase);

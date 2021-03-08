@@ -31,7 +31,7 @@ namespace Stella.GameLogic.Character
 
         public float Gravity => CharacterData.GravityOnAir;
 
-        public bool Invincible { get; set; }
+        public bool Invincible { get; private set; }
         
         public Transform CamTarget { get; set; }
         
@@ -59,11 +59,20 @@ namespace Stella.GameLogic.Character
             {
                 RemainJumpCount--;
             }
+
+            if (state is KnockbackState)
+            {
+                Invincible = false;
+            }
         }
 
         private void InternalOnEnterState(CharacterState state)
         {
-            
+            if (state is HitState)
+            {
+                Invincible = true;
+                CameraController.Instance.Shake(CharacterData.ShakePower);
+            }
         }
 
         public void Listen(ICommand command)
