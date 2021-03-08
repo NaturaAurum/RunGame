@@ -18,6 +18,8 @@ namespace Stella.GameLogic.Character
 
         private Animator animator = null;
 
+        private float RunSpeed => character.CharacterData.MaxSpeedOnGround / 5f;
+
         private void Awake()
         {
             character = GetComponent<CharacterBase>();
@@ -42,6 +44,8 @@ namespace Stella.GameLogic.Character
             character.CamTarget = (camTarget == null) ? transform : camTarget;
 
             Model = instance;
+
+            animator.speed = RunSpeed;
         }
 
         private void OnDestroy()
@@ -53,7 +57,7 @@ namespace Stella.GameLogic.Character
         private void OnExitState(CharacterState state)
         {
             if (state is HitState)
-                animator.speed = 1;
+                animator.speed = RunSpeed;
         }
 
         private void OnEnterState(CharacterState state)
