@@ -66,7 +66,7 @@ namespace Stella.GameLogic.Character
         
         private void FixedUpdate()
         {
-            if (characterBase.IsDead) return;
+            if (characterBase.IsDead || !characterBase.CanPlay) return;
             
             GroundCheck();
             var velocity = GetBeforeVelocity();

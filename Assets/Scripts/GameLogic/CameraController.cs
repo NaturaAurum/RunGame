@@ -43,7 +43,23 @@ namespace Stella.GameLogic
         public void SetCharacter(CharacterBase character)
         {
             // TODO
-            
+            var camTarget = character.CamTarget;
+            var target = new CinemachineTargetGroup.Target();
+            target.target = camTarget;
+            target.weight = 3;
+            targetList.Add(target);
+            targetGroup.m_Targets = targetList.ToArray();
+        }
+        
+        public void SetCameraScreenXY(float screenX, float screenY)
+        {
+            if (transposer == null)
+            {
+                return;
+            }
+
+            transposer.m_ScreenX = screenX;
+            transposer.m_ScreenY = screenY;
         }
 
         private void LateUpdate()

@@ -6,8 +6,10 @@ using Sirenix.OdinInspector;
 using Stella.Data;
 using Stella.Data.Enums;
 using Stella.GameLogic.Manager;
+using UniRx;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using UnityEngine.UI;
 #if UNITY_EDITOR
 using UnityEditor;
 
@@ -29,10 +31,16 @@ namespace Stella.GameLogic.Environment.Map
 
         [ReadOnly] public List<BlockTiles> TileList = new List<BlockTiles>();
 
+        [SerializeField, Required] private Button startButton = null;
+        [SerializeField, Required] private Button resetButton = null;
+
 
         private void Awake()
         {
             GridObject.SetActive(false);
+
+            startButton.OnClickAsObservable().Subscribe(_ => _Start()).AddTo(this);
+            resetButton.OnClickAsObservable().Subscribe(_ => _Reset()).AddTo(this);
         }
 
         private void Start()
@@ -43,6 +51,16 @@ namespace Stella.GameLogic.Environment.Map
         public void Init()
         {
             GameManager.Instance.SetMapData(Data);
+        }
+
+        public void _Reset()
+        {
+            GameManager.Instance.SetState(GameState.Ready);
+        }
+
+        public void _Start()
+        {
+            GameManager.Instance.SetState(GameState.Play);
         }
 
         [Button]

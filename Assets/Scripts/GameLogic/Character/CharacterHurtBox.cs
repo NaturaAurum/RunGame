@@ -20,7 +20,7 @@ namespace Stella.GameLogic.Character
         {
             character = GetComponent<CharacterBase>();
             physics = GetComponent<CharacterPhysics>();
-            checkLayer = LayerMask.NameToLayer("Obstacles");
+            checkLayer = LayerMask.NameToLayer("Obstacle");
         }
 
         private void Start()
@@ -38,7 +38,7 @@ namespace Stella.GameLogic.Character
             var velocity = physics.Velocity;
             var next = velocity * Time.fixedDeltaTime;
             var raycastHit2D = Physics2D.CapsuleCast(transform.position, collider.size, collider.direction, 0, next,
-                1 << checkLayer);
+                next.magnitude, 1 << checkLayer);
             if (raycastHit2D != null && raycastHit2D.transform != null)
             {
                 CommandDispatcher.Dispatch(new CharacterHitCommand());

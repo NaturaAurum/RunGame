@@ -43,6 +43,11 @@ namespace Stella.GameLogic.Character
                 nextState = new HitState(characterBase);
             }
 
+            if (command is InitCommand)
+            {
+                nextState = new IdleState(characterBase);
+            }
+
             DoCommand(command);
         }
 

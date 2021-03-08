@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Stella.Data;
 using Stella.Data.Enums;
+using Stella.GameLogic.Character;
 using Stella.GameLogic.Command;
 using UniRx;
 using UnityEngine;
@@ -45,6 +46,8 @@ namespace Stella.GameLogic.Manager
 
         private MapDataRxProp currentMapData = new MapDataRxProp();
 
+        private CharacterBase currentPlayer = null;
+
         private void Awake()
         {
             if (Instance == null)
@@ -54,7 +57,8 @@ namespace Stella.GameLogic.Manager
 
             CommandDispatcher.AddListener(this);
 
-            CurrentMapData.Subscribe(MapDataSetUpDone).AddTo(this);
+            currentMapData.Subscribe(MapDataSetUpDone).AddTo(this);
+            currentState.Subscribe(OnGameStateChanged).AddTo(this);
         }
 
         private void MapDataSetUpDone(MapData mapData)
@@ -63,7 +67,26 @@ namespace Stella.GameLogic.Manager
             {
                 var playerPrefab = Resources.Load<GameObject>("Prefabs/Player");
                 var playerInstance = Instantiate(playerPrefab);
-                playerInstance.transform.position = StartPos;
+                currentPlayer = playerInstance.GetComponent<CharacterBase>();
+                CameraController.Instance.SetCharacter(currentPlayer);
+            }
+        }
+
+        private void OnGameStateChanged(GameState state)
+        {
+            switch (state)
+            {
+                case GameState.Play:
+                    CommandDispatcher.Dispatch(new StartCommand());
+                    break;
+                case GameState.Ready:
+                    CommandDispatcher.Dispatch(new InitCommand());
+                    if (currentPlayer != null)
+                    {
+                        currentPlayer.transform.position = StartPos;
+                    }
+
+                    break;
             }
         }
 
@@ -80,6 +103,11 @@ namespace Stella.GameLogic.Manager
         public void SetMapData(MapData mapData)
         {
             currentMapData.Value = mapData;
+        }
+
+        public void SetState(GameState state)
+        {
+            currentState.Value = state;
         }
     }
 }

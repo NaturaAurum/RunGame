@@ -34,6 +34,8 @@ namespace Stella.GameLogic.Character
         public bool Invincible { get; set; }
         
         public Transform CamTarget { get; set; }
+        
+        public bool CanPlay { get; private set; }
 
         private void Awake()
         {
@@ -75,6 +77,11 @@ namespace Stella.GameLogic.Character
             {
                 IsGround = false;
             }
+
+            if (command is StartCommand)
+                CanPlay = true;
+            else if (command is InitCommand)
+                CanPlay = false;
         }
     }
 }

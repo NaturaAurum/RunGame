@@ -20,10 +20,10 @@ namespace Stella.GameLogic.Inputs
             }
             
             // FIXME
-            if (Input.GetKeyDown(KeyCode.S))
-            {
-                CommandDispatcher.Dispatch(new StartCommand());
-            }
+            // if (Input.GetKeyDown(KeyCode.S))
+            // {
+            //     CommandDispatcher.Dispatch(new StartCommand());
+            // }
         }
     }
 }
