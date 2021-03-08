@@ -103,6 +103,11 @@ namespace Stella.GameLogic.Environment.Map
             return GetBlockTiles(ItemType.Obstacles, MapType.None, MapThemeType.None);
         }
 
+        public BlockTiles GetWaterBlockTileData()
+        {
+            return GetBlockTiles(ItemType.Water, MapType.None, MapThemeType.None);
+        }
+
         public ItemId? FindIdByValue(Tile tile)
         {
             var id = GetCurrBlockTileData()?.FindIdByValue(tile);
@@ -114,6 +119,11 @@ namespace Stella.GameLogic.Environment.Map
             if (!id.HasValue)
             {
                 id = GetObstacleBlockTileData()?.FindIdByValue(tile);
+            }
+
+            if (!id.HasValue)
+            {
+                id = GetWaterBlockTileData()?.FindIdByValue(tile);
             }
             
             Debug.Assert(id.HasValue, $"{tile.name} id's not found");
@@ -132,6 +142,11 @@ namespace Stella.GameLogic.Environment.Map
             if (value == null)
             {
                 value = GetObstacleBlockTileData()?.GetValue(id).Tile;
+            }
+
+            if (value == null)
+            {
+                value = GetWaterBlockTileData()?.GetValue(id).Tile;
             }
 
             Debug.Assert(value != null, $"{id} id's not found");

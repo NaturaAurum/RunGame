@@ -15,7 +15,7 @@ MonoBehaviour:
   AccelerationOnGround: 50
   MaxSpeedOnGround: 10
   AccelerationOnAir: 50
-  MaxSpeedOnAir: 5
+  MaxSpeedOnAir: 10
   GravityOnAir: 50
   MaxFallingSpeedOnAir: 3
   MaxJumpCount: 2

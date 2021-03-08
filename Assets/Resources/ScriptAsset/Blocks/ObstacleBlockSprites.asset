@@ -48,5 +48,6 @@ MonoBehaviour:
         Type: 0
       Id: 5
     Sprite: {fileID: 21300000, guid: a0325b0374e9ebc458051a5756fdef31, type: 3}
+  Type: 3
   Map: 0
   Theme: 0

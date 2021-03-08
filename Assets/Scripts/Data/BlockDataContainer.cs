@@ -17,10 +17,8 @@ namespace Stella.Data
 
         public static Sprite GetSprite(ItemId itemId)
         {
-            var mapId = itemId.MapId;
-
             var data = blockSpriteList.
-                FirstOrDefault(CheckData(mapId));
+                FirstOrDefault(CheckData(itemId));
 
             if (data != null)
             {
@@ -30,9 +28,9 @@ namespace Stella.Data
             return null;
         }
 
-        private static Func<BlockSprites, bool> CheckData(MapId mapId)
+        private static Func<BlockSprites, bool> CheckData(ItemId id)
         {
-            return x => x.Map == mapId.Type && x.Theme == mapId.Theme;
+            return x => x.Type == id.Type && x.Map == id.MapId.Type && x.Theme == id.MapId.Theme;
         }
     }
 }

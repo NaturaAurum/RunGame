@@ -18,7 +18,6 @@ MonoBehaviour:
       MapId:
         Theme: 4
         Type: 2
-        Id: 0
       Id: 0
     Sprite: {fileID: 21300000, guid: 142885eef2b3a4d43850947b7ad5b46b, type: 3}
   - key:
@@ -26,7 +25,6 @@ MonoBehaviour:
       MapId:
         Theme: 4
         Type: 2
-        Id: 0
       Id: 1
     Sprite: {fileID: 21300000, guid: 7848f194c30d7dc469fd73afd3108a92, type: 3}
   - key:
@@ -34,7 +32,6 @@ MonoBehaviour:
       MapId:
         Theme: 4
         Type: 2
-        Id: 0
       Id: 2
     Sprite: {fileID: 21300000, guid: bfad3236e188e864ba4cdf29cd2adf1e, type: 3}
   - key:
@@ -42,7 +39,6 @@ MonoBehaviour:
       MapId:
         Theme: 4
         Type: 2
-        Id: 0
       Id: 3
     Sprite: {fileID: 21300000, guid: e182e9a902c20d246ae36a703e851801, type: 3}
   - key:
@@ -50,7 +46,6 @@ MonoBehaviour:
       MapId:
         Theme: 4
         Type: 2
-        Id: 0
       Id: 5
     Sprite: {fileID: 21300000, guid: 01e758828298e8349a89ace5127a8315, type: 3}
   - key:
@@ -58,7 +53,6 @@ MonoBehaviour:
       MapId:
         Theme: 4
         Type: 2
-        Id: 0
       Id: 6
     Sprite: {fileID: 21300000, guid: 6c6c3ab1697f9de45ae21613b4c9d130, type: 3}
   - key:
@@ -66,7 +60,6 @@ MonoBehaviour:
       MapId:
         Theme: 4
         Type: 2
-        Id: 0
       Id: 7
     Sprite: {fileID: 21300000, guid: f0ea20b51cbf36f458dd45eb862ae599, type: 3}
   - key:
@@ -74,7 +67,6 @@ MonoBehaviour:
       MapId:
         Theme: 4
         Type: 2
-        Id: 0
       Id: 8
     Sprite: {fileID: 21300000, guid: 337feecaac1541447a2b3bb8f0268846, type: 3}
   - key:
@@ -82,7 +74,6 @@ MonoBehaviour:
       MapId:
         Theme: 4
         Type: 2
-        Id: 0
       Id: 9
     Sprite: {fileID: 21300000, guid: f04a7678219b5094f8c611bf4659a6eb, type: 3}
   - key:
@@ -90,7 +81,6 @@ MonoBehaviour:
       MapId:
         Theme: 4
         Type: 2
-        Id: 0
       Id: 10
     Sprite: {fileID: 21300000, guid: 0cec38267b42f9b499cece454c27361e, type: 3}
   - key:
@@ -98,7 +88,6 @@ MonoBehaviour:
       MapId:
         Theme: 4
         Type: 2
-        Id: 0
       Id: 14
     Sprite: {fileID: 21300000, guid: 1dd3153ef4fc0b94d93b536465558ab9, type: 3}
   - key:
@@ -106,7 +95,6 @@ MonoBehaviour:
       MapId:
         Theme: 4
         Type: 2
-        Id: 0
       Id: 11
     Sprite: {fileID: 21300000, guid: 7b0d18a014758fc469b8ac6f7d4a3389, type: 3}
   - key:
@@ -114,7 +102,6 @@ MonoBehaviour:
       MapId:
         Theme: 4
         Type: 2
-        Id: 0
       Id: 12
     Sprite: {fileID: 21300000, guid: ce49a1913c754da41b188be1a51a95b6, type: 3}
   - key:
@@ -122,7 +109,6 @@ MonoBehaviour:
       MapId:
         Theme: 4
         Type: 2
-        Id: 0
       Id: 13
     Sprite: {fileID: 21300000, guid: 91fa5ca89ace12b49ac24bc9fc0e4698, type: 3}
   - key:
@@ -130,7 +116,6 @@ MonoBehaviour:
       MapId:
         Theme: 4
         Type: 2
-        Id: 0
       Id: 15
     Sprite: {fileID: 21300000, guid: aa4db4fed01d8a249afcab049d612cb6, type: 3}
   - key:
@@ -138,7 +123,6 @@ MonoBehaviour:
       MapId:
         Theme: 4
         Type: 2
-        Id: 0
       Id: 16
     Sprite: {fileID: 21300000, guid: b1cb3260f40201c4f970eb7c82bf7a44, type: 3}
   - key:
@@ -146,7 +130,6 @@ MonoBehaviour:
       MapId:
         Theme: 4
         Type: 2
-        Id: 0
       Id: 17
     Sprite: {fileID: 21300000, guid: 15e7d8d5ad24f344c8989225017aedac, type: 3}
   - key:
@@ -154,7 +137,6 @@ MonoBehaviour:
       MapId:
         Theme: 4
         Type: 2
-        Id: 0
       Id: 18
     Sprite: {fileID: 21300000, guid: c6512a068d319034799884f0b297db74, type: 3}
   - key:
@@ -162,7 +144,6 @@ MonoBehaviour:
       MapId:
         Theme: 4
         Type: 2
-        Id: 0
       Id: 19
     Sprite: {fileID: 21300000, guid: 6872fe5f6eae1bc4f9b2346475eb5871, type: 3}
   - key:
@@ -170,7 +151,6 @@ MonoBehaviour:
       MapId:
         Theme: 4
         Type: 2
-        Id: 0
       Id: 20
     Sprite: {fileID: 21300000, guid: 5b132f39f28a2dd4bbb9ea3f8be65205, type: 3}
   - key:
@@ -178,7 +158,6 @@ MonoBehaviour:
       MapId:
         Theme: 4
         Type: 2
-        Id: 0
       Id: 21
     Sprite: {fileID: 21300000, guid: 064573fdebe57db4fbac698f28dda1e4, type: 3}
   - key:
@@ -186,8 +165,8 @@ MonoBehaviour:
       MapId:
         Theme: 4
         Type: 2
-        Id: 0
       Id: 22
     Sprite: {fileID: 21300000, guid: 1b64767a338d0334d9834dbeaa4f0109, type: 3}
+  Type: 1
   Map: 2
   Theme: 4

@@ -90,5 +90,6 @@ MonoBehaviour:
         Type: 0
       Id: 10
     Sprite: {fileID: 21300000, guid: ed937ea4880031f4db9d3bf5e2028630, type: 3}
+  Type: 1
   Map: 0
   Theme: 1

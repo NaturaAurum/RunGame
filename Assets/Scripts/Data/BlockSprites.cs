@@ -33,6 +33,7 @@ namespace Stella.Data
     [CreateAssetMenu(menuName = "Block/Sprites")]
     public class BlockSprites : KeyTable<ItemId, BlockResourceData>
     {
+        public ItemType Type;
         public MapType Map;
         public MapThemeType Theme;
 
@@ -81,7 +82,7 @@ namespace Stella.Data
                 
                 Add(new BlockResourceData
                 {
-                    Key = ItemId.By(ItemType.Floor, MapId.By(Theme, Map), id),
+                    Key = ItemId.By(Type, MapId.By(Theme, Map), id),
                     Sprite = sprite
                 });
             }

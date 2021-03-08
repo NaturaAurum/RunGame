@@ -174,5 +174,6 @@ MonoBehaviour:
         Type: 1
       Id: 22
     Sprite: {fileID: 21300000, guid: 2ad8cca6891ea674ebe8fe6194017093, type: 3}
+  Type: 1
   Map: 1
   Theme: 3
